@@ -1,0 +1,4 @@
+Colocá aquí los archivos de Radnika Next (licencia comercial de Atipo):
+  RadnikaNext-Regular.woff2  (y opcional .woff)
+  RadnikaNext-Black.woff2    (y opcional .woff)
+Con esos nombres, styles.css los toma solo. Mientras no estén, se usa Archivo (Google Fonts).

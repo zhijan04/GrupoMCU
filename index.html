@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Grupo MCU · Alumbrado Tecnológico</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Iluminación exterior LED para municipios, vialidades y espacios públicos. Luminarias viales, solares y de punta de poste con proyecto, instalación y mantenimiento.">
+<meta name="theme-color" content="#000000">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Montserrat (textos) + Archivo (respaldo temporal de Radnika Next mientras no estén sus archivos) -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700;800;900&family=Montserrat:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<!-- ============ Sprite de iconos (líneas) ============ -->
+<svg xmlns="http://www.w3.org/2000/svg" class="sprite" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-zap" viewBox="0 0 24 24"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></symbol>
+    <symbol id="i-clipboard" viewBox="0 0 24 24"><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="m9 14 2 2 4-4"/></symbol>
+    <symbol id="i-gear" viewBox="0 0 24 24"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></symbol>
+    <symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></symbol>
+    <symbol id="i-hardhat" viewBox="0 0 24 24"><path d="M2 18a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v2z"/><path d="M10 10V5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5"/><path d="M4 15v-3a6 6 0 0 1 6-6"/><path d="M14 6a6 6 0 0 1 6 6v3"/></symbol>
+    <symbol id="i-handshake" viewBox="0 0 24 24"><path d="m11 17 2 2a1 1 0 1 0 3-3"/><path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"/><path d="m21 3 1 11h-2"/><path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3"/><path d="M3 4h8"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+    <symbol id="i-piggy" viewBox="0 0 24 24"><path d="M19 5c-1.5 0-2.8 1.4-3 2-3.5-1.5-11-.3-11 5 0 1.8 0 3 2 4.5V20h4v-2h3v2h4v-4c1-.5 1.7-1 2-2h2v-4h-2c0-1-.5-1.5-1-2V5z"/><path d="M2 9v1c0 1.1.9 2 2 2h1"/><path d="M16 11h.01"/></symbol>
+    <symbol id="i-tree" viewBox="0 0 24 24"><path d="M8 19a4 4 0 0 1-2.24-7.32A3.5 3.5 0 0 1 9 6.03V6a3 3 0 1 1 6 0v.04a3.5 3.5 0 0 1 3.24 5.65A4 4 0 0 1 16 19Z"/><path d="M12 19v3"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/><path d="M9.5 9.5c0 2.5 2.5 5 5 5l1-1.2-1.8-.9-.7.7c-.9-.4-1.7-1.2-2.1-2.1l.7-.7-.9-1.8z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+    <symbol id="i-tiktok" viewBox="0 0 24 24"><path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 3c.4 2.6 2.4 4.6 5 5"/></symbol>
+    <symbol id="i-image" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.09-3.09a2 2 0 0 0-2.82 0L6 21"/></symbol>
+    <symbol id="i-burst" viewBox="0 0 48 48"><g stroke-width="2.4"><path d="M10 40 40 6"/><path d="M10 40 44 16"/><path d="M10 40 46 28"/><path d="M10 40 28 4"/><path d="M10 40 44 38"/><path d="M10 40 18 6"/></g></symbol>
+  </defs>
+</svg>
+
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<!-- ============ Encabezado ============ -->
+<header class="site-header" id="top">
+  <div class="container container--wide header__inner">
+    <a class="brand" href="index.html">
+      <!-- Logo en versión negativa (textos en blanco) para fondo negro. Original a color: assets/img/marca/logo-mcu-original.png -->
+      <img class="brand__logo" src="assets/img/marca/logo-mcu-negativo.webp" alt="Grupo MCU · Alumbrado Tecnológico, ir al inicio" width="476" height="200">
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="burger" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span class="visually-hidden">Abrir menú</span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="Principal">
+      <ul>
+        <li><a href="#inicio" aria-current="true">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#green-cobra">Green Cobra</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="financiamiento.html">Financiamiento</a></li>
+        <li><a href="catalogo.html" data-catalog>Catálogo Digital</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <a class="btn btn--primary btn--sm" href="#contacto" data-wa data-wa-message="Hola, quiero cotizar un proyecto de iluminación LED.">
+        <svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg>
+        Cotiza por WhatsApp
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido">
+
+  <!-- ============ Hero ============ -->
+  <section class="hero" id="inicio" aria-labelledby="hero-title">
+    <!-- Foto de fondo fija: assets/img/ambiente/hero.webp -->
+    <div class="hero__slides" aria-hidden="true">
+      <img class="hero__slide is-active" src="assets/img/ambiente/hero.webp" alt="" width="2600" height="1100" fetchpriority="high">
+    </div>
+    <div class="hero__wedge" aria-hidden="true"></div>
+
+    <div class="container container--wide hero__inner">
+      <h1 class="hero__title" id="hero-title">
+        <span><span class="hero__title-thin">Soluciones</span> de</span>
+        <span>Alumbrado <em>Público</em></span>
+      </h1>
+      <p class="hero__lead">Soluciones para municipios, vialidades y espacios públicos.</p>
+
+      <ul class="hero__benefits">
+        <li><svg class="icon icon--accent" aria-hidden="true"><use href="#i-zap"/></svg><span>Ahorro de energía <br>hasta 60%</span></li>
+        <li><svg class="icon icon--accent" aria-hidden="true"><use href="#i-gear"/></svg><span>Proyectos <br>integrales</span></li>
+        <li><svg class="icon icon--accent" aria-hidden="true"><use href="#i-shield"/></svg><span>Calidad <br>y durabilidad</span></li>
+      </ul>
+
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#productos">Conoce nuestros productos <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn--outline" href="#contacto" data-wa data-wa-message="Hola, quiero información sobre sus soluciones de iluminación LED.">Contáctanos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Productos ============ -->
+  <section class="section section--white" id="productos" aria-labelledby="productos-title">
+    <div class="container">
+      <p class="eyebrow">Nuestros productos</p>
+      <h2 class="section-title" id="productos-title">Soluciones para cada espacio</h2>
+
+      <!-- Fondos ilustrativos (assets/img/fondos/). Para usar fotos reales, cambiá las rutas en styles.css → PRODUCTOS. -->
+      <ul class="product-grid">
+        <li class="product-card product-card--vial">
+          <div class="product-card__media">
+            <img src="assets/img/productos/green-cobra-3.webp" alt="Luminaria vial Green Cobra con el módulo LED encendido" width="1100" height="479" loading="lazy">
+          </div>
+          <div class="product-card__body">
+            <p class="product-card__type">Luminaria vial</p>
+            <h3 class="product-card__name">GREEN COBRA</h3>
+            <p class="product-card__spec">35 – 200 Watts</p>
+            <a class="round-btn" href="#green-cobra" aria-label="Ver detalle de Green Cobra">
+              <svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg>
+            </a>
+          </div>
+        </li>
+
+        <li class="product-card product-card--solar">
+          <div class="product-card__media">
+            <img src="assets/img/productos/lao-s-pro-poste.webp" alt="Luminaria solar LAO-S Pro montada en poste" width="1394" height="1500" loading="lazy">
+          </div>
+          <div class="product-card__body">
+            <p class="product-card__type">Luminaria solar</p>
+            <h3 class="product-card__name">LAO-S Pro</h3>
+            <p class="product-card__spec">60 – 150 Watts</p>
+            <a class="round-btn" href="#lao-s-pro" aria-label="Ver detalle de LAO-S Pro">
+              <svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg>
+            </a>
+          </div>
+        </li>
+
+        <li class="product-card product-card--ornamental">
+          <div class="product-card__media">
+            <img src="assets/img/productos/afrodita-2.webp" alt="Luminaria punta de poste Afrodita con brazo en forma de Y" width="931" height="1032" loading="lazy">
+          </div>
+          <div class="product-card__body">
+            <p class="product-card__type">Luminaria punta de poste</p>
+            <h3 class="product-card__name">AFRODITA</h3>
+            <p class="product-card__spec">Potencia a consultar</p>
+            <a class="round-btn" href="#afrodita" aria-label="Ver detalle de Afrodita">
+              <svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ Nuestras luminarias (carrusel) ============ -->
+  <section class="section section--mist lines" id="luminarias" aria-labelledby="lineas-title" aria-roledescription="carrusel">
+    <div class="container">
+      <div class="lines__head">
+        <div>
+          <p class="eyebrow">Línea de productos</p>
+          <h2 class="section-title" id="lineas-title">Conoce cada luminaria</h2>
+        </div>
+        <div class="lines__controls">
+          <div class="lines__tabs" role="group" aria-label="Elegir luminaria">
+            <button type="button" class="lines__tab" data-go="0" aria-controls="green-cobra" aria-current="true">Green Cobra</button>
+            <button type="button" class="lines__tab" data-go="1" aria-controls="lao-s-pro">LAO-S Pro</button>
+            <button type="button" class="lines__tab" data-go="2" aria-controls="afrodita">Afrodita</button>
+          </div>
+          <div class="lines__arrows">
+            <button type="button" class="arrow-btn" data-dir="-1" aria-label="Luminaria anterior"><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></button>
+            <button type="button" class="arrow-btn" data-dir="1" aria-label="Luminaria siguiente"><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></button>
+          </div>
+        </div>
+      </div>
+      <div class="lines__track" tabindex="0" aria-label="Luminarias, deslizá para ver más">
+        <article class="slide" id="green-cobra" aria-roledescription="diapositiva" aria-label="1 de 3: Green Cobra">
+          <div class="gc">
+            <div class="gc__viewer">
+              <figure class="gc__stage">
+                <img class="gc__main" src="assets/img/productos/green-cobra-5.webp" alt="Green Cobra: montada en poste" width="730" height="1100" loading="lazy">
+                <figcaption class="gc__caption">Montada en poste</figcaption>
+              </figure>
+              <div class="gc__thumbs" style="--n:5" role="group" aria-label="Vistas de Green Cobra">
+                <button type="button" class="gc__thumb" aria-pressed="true" data-src="assets/img/productos/green-cobra-5.webp" data-w="730" data-h="1100" data-label="Montada en poste"><img src="assets/img/productos/green-cobra-5.webp" alt="" loading="lazy"><span class="visually-hidden">Montada en poste</span></button>
+                <button type="button" class="gc__thumb" aria-pressed="false" data-src="assets/img/productos/green-cobra-3.webp" data-w="1100" data-h="479" data-label="Perspectiva, LED encendido"><img src="assets/img/productos/green-cobra-3.webp" alt="" loading="lazy"><span class="visually-hidden">Perspectiva, LED encendido</span></button>
+                <button type="button" class="gc__thumb" aria-pressed="false" data-src="assets/img/productos/green-cobra-1.webp" data-w="627" data-h="1100" data-label="Vista inferior, módulo LED"><img src="assets/img/productos/green-cobra-1.webp" alt="" loading="lazy"><span class="visually-hidden">Vista inferior, módulo LED</span></button>
+                <button type="button" class="gc__thumb" aria-pressed="false" data-src="assets/img/productos/green-cobra-2.webp" data-w="386" data-h="748" data-label="Vista superior"><img src="assets/img/productos/green-cobra-2.webp" alt="" loading="lazy"><span class="visually-hidden">Vista superior</span></button>
+                <button type="button" class="gc__thumb" aria-pressed="false" data-src="assets/img/productos/green-cobra-4.webp" data-w="1100" data-h="287" data-label="Perfil lateral"><img src="assets/img/productos/green-cobra-4.webp" alt="" loading="lazy"><span class="visually-hidden">Perfil lateral</span></button>
+              </div>
+            </div>
+            <div class="gc__text">
+              <p class="eyebrow">Luminaria vial</p>
+              <h3 class="section-title section-title--xl">Green Cobra</h3>
+              <p class="gc__spec">35 – 200 Watts</p>
+              <p>Luminaria LED para avenidas, calles y vialidades. Pensada para proyectos de alumbrado público que buscan reducir el consumo de energía y mejorar la visibilidad nocturna.</p>
+              <p class="gc__note">Potencias, ópticas y ficha técnica disponibles a solicitud.</p>
+              <div class="gc__actions">
+                <a class="btn btn--dark" href="#contacto" data-wa data-wa-message="Hola, quiero la ficha técnica y cotización de Green Cobra.">Solicitar ficha técnica <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="slide" id="lao-s-pro" aria-roledescription="diapositiva" aria-label="2 de 3: LAO-S Pro">
+          <div class="gc">
+            <div class="gc__viewer">
+              <figure class="gc__stage">
+                <img class="gc__main" src="assets/img/productos/lao-s-pro-perspectiva.webp" alt="LAO-S Pro: perspectiva" width="1300" height="654" loading="lazy">
+                <figcaption class="gc__caption">Perspectiva</figcaption>
+              </figure>
+              <div class="gc__thumbs" style="--n:5" role="group" aria-label="Vistas de LAO-S Pro">
+                <button type="button" class="gc__thumb" aria-pressed="true" data-src="assets/img/productos/lao-s-pro-perspectiva.webp" data-w="1300" data-h="654" data-label="Perspectiva"><img src="assets/img/productos/lao-s-pro-perspectiva.webp" alt="" loading="lazy"><span class="visually-hidden">Perspectiva</span></button>
+                <button type="button" class="gc__thumb" aria-pressed="false" data-src="assets/img/productos/lao-s-pro-60w.webp" data-w="1100" data-h="607" data-label="Versión 60W"><img src="assets/img/productos/lao-s-pro-60w.webp" alt="" loading="lazy"><span class="visually-hidden">Versión 60W</span></button>
+                <button type="button" class="gc__thumb" aria-pressed="false" data-src="assets/img/productos/lao-s-pro-80w.webp" data-w="1100" data-h="759" data-label="Versión 80W"><img src="assets/img/productos/lao-s-pro-80w.webp" alt="" loading="lazy"><span class="visually-hidden">Versión 80W</span></button>
+                <button type="button" class="gc__thumb" aria-pressed="false" data-src="assets/img/productos/lao-s-pro-100-y-120w.webp" data-w="1100" data-h="693" data-label="Versiones 100 y 120W"><img src="assets/img/productos/lao-s-pro-100-y-120w.webp" alt="" loading="lazy"><span class="visually-hidden">Versiones 100 y 120W</span></button>
+                <button type="button" class="gc__thumb" aria-pressed="false" data-src="assets/img/productos/lao-s-pro-panel.webp" data-w="354" data-h="1100" data-label="Panel solar"><img src="assets/img/productos/lao-s-pro-panel.webp" alt="" loading="lazy"><span class="visually-hidden">Panel solar</span></button>
+              </div>
+            </div>
+            <div class="gc__text">
+              <p class="eyebrow">Luminaria solar</p>
+              <h3 class="section-title section-title--xl">LAO-S Pro</h3>
+              <p class="gc__spec">60 – 150 Watts</p>
+              <p>Luminaria LED solar para parques, andadores, estacionamientos y espacios donde no hay red eléctrica. Funciona con energía del sol, sin consumo de la red.</p>
+              <p class="gc__note">Potencias, ópticas y ficha técnica disponibles a solicitud.</p>
+              <div class="gc__actions">
+                <a class="btn btn--dark" href="#contacto" data-wa data-wa-message="Hola, quiero la ficha técnica y cotización de la luminaria solar LAO-S Pro.">Solicitar ficha técnica <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="slide" id="afrodita" aria-roledescription="diapositiva" aria-label="3 de 3: Afrodita">
+          <div class="gc">
+            <div class="gc__viewer">
+              <figure class="gc__stage">
+                <img class="gc__main" src="assets/img/productos/afrodita-1.webp" alt="Afrodita: montada en poste" width="573" height="1100" loading="lazy">
+                <figcaption class="gc__caption">Montada en poste</figcaption>
+              </figure>
+              <div class="gc__thumbs" style="--n:3" role="group" aria-label="Vistas de Afrodita">
+                <button type="button" class="gc__thumb" aria-pressed="true" data-src="assets/img/productos/afrodita-1.webp" data-w="573" data-h="1100" data-label="Montada en poste"><img src="assets/img/productos/afrodita-1.webp" alt="" loading="lazy"><span class="visually-hidden">Montada en poste</span></button>
+                <button type="button" class="gc__thumb" aria-pressed="false" data-src="assets/img/productos/afrodita-2.webp" data-w="931" data-h="1032" data-label="Vista frontal"><img src="assets/img/productos/afrodita-2.webp" alt="" loading="lazy"><span class="visually-hidden">Vista frontal</span></button>
+                <button type="button" class="gc__thumb" aria-pressed="false" data-src="assets/img/productos/afrodita-3.webp" data-w="452" data-h="677" data-label="Cuerpo completo"><img src="assets/img/productos/afrodita-3.webp" alt="" loading="lazy"><span class="visually-hidden">Cuerpo completo</span></button>
+              </div>
+            </div>
+            <div class="gc__text">
+              <p class="eyebrow">Luminaria punta de poste</p>
+              <h3 class="section-title section-title--xl">Afrodita</h3>
+              <p class="gc__spec">Potencia a consultar</p>
+              <p>Luminaria LED de punta de poste para plazas, parques, andadores y centros históricos. Su brazo en forma de Y ilumina y, al mismo tiempo, acompaña la arquitectura del lugar.</p>
+              <p class="gc__note">Potencias, ópticas y ficha técnica disponibles a solicitud.</p>
+              <div class="gc__actions">
+                <a class="btn btn--dark" href="#contacto" data-wa data-wa-message="Hola, quiero la ficha técnica y cotización de la luminaria punta de poste Afrodita.">Solicitar ficha técnica <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="lines__dots" aria-hidden="true"><span class="is-active"></span><span></span><span></span></div>
+      <div class="lines__more">
+        <p>¿Buscás otra luminaria? El catálogo tiene todo tipo de productos entre viales, solares, punta de poste, ornamentales, reflectores e interiores.</p>
+        <a class="btn btn--primary" href="catalogo.html" data-catalog>Ver catálogo digital <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Servicios ============ -->
+  <section class="section section--black services" id="servicios" aria-labelledby="servicios-title">
+    <div class="container services__inner">
+      <div class="services__head">
+        <p class="eyebrow">Nuestros servicios</p>
+        <h2 class="section-title" id="servicios-title">Proyectos integrales de iluminación</h2>
+      </div>
+      <ul class="services__list">
+        <li><svg class="icon icon--accent icon--lg" aria-hidden="true"><use href="#i-clipboard"/></svg><span>Estudio y proyecto sin costo</span></li>
+        <li><svg class="icon icon--accent icon--lg" aria-hidden="true"><use href="#i-gear"/></svg><span>Suministro de luminarias</span></li>
+        <li><svg class="icon icon--accent icon--lg" aria-hidden="true"><use href="#i-wrench"/></svg><span>Instalación</span></li>
+        <li><svg class="icon icon--accent icon--lg" aria-hidden="true"><use href="#i-hardhat"/></svg><span>Mantenimiento</span></li>
+        <li><svg class="icon icon--accent icon--lg" aria-hidden="true"><use href="#i-handshake"/></svg><span>Asesoría y financiamiento</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ Nosotros ============ -->
+  <section class="about" id="nosotros" aria-labelledby="nosotros-title">
+    <div class="about__media">
+      <img src="assets/img/ambiente/nosotros.webp" alt="Campo de béisbol iluminado de noche con reflectores LED" width="1600" height="1200" loading="lazy">
+    </div>
+    <div class="about__body">
+      <div class="about__content">
+        <p class="eyebrow eyebrow--dark">Grupo MCU</p>
+        <h2 class="section-title" id="nosotros-title">Más de 20 años iluminando México</h2>
+        <p>Somos una empresa especializada en soluciones de iluminación LED para el sector público y privado, ofreciendo proyectos integrales que mejoran la seguridad, reducen el consumo de energía y generan ciudades más sustentables.</p>
+        <dl class="stats">
+          <div><dt>+20</dt><dd>Años de experiencia</dd></div>
+          <div><dt>+500</dt><dd>Municipios atendidos</dd></div>
+          <div><dt class="stats__word">Proyectos</dt><dd>En todo México</dd></div>
+        </dl>
+        <a class="btn btn--primary" href="nosotros.html" data-link="about">Conoce más sobre nosotros <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Proyectos ============ -->
+  <section class="section section--black" id="proyectos" aria-labelledby="proyectos-title">
+    <div class="container">
+      <div class="projects__head">
+        <div>
+          <p class="eyebrow">Proyectos</p>
+          <h2 class="section-title" id="proyectos-title">Ciudades más seguras y eficientes</h2>
+        </div>
+        <a class="btn btn--ghost" href="proyectos.html" data-link="projects">Ver más proyectos <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+      <ul class="projects__grid">
+        <li><figure><img src="assets/img/proyectos/plaza-kiosko.webp" alt="Kiosko y plaza principal iluminados de noche" width="900" height="675" loading="lazy"><figcaption>Plaza pública</figcaption></figure></li>
+        <li><figure><img src="assets/img/proyectos/espacio-publico.webp" alt="Andador peatonal con luminarias LED entre áreas verdes" width="900" height="675" loading="lazy"><figcaption>Espacio público</figcaption></figure></li>
+        <li><figure><img src="assets/img/proyectos/campo-deportivo.webp" alt="Campo de béisbol con iluminación LED nocturna" width="900" height="675" loading="lazy"><figcaption>Instalación deportiva</figcaption></figure></li>
+        <li><figure><img src="assets/img/proyectos/centro-historico.webp" alt="Fachada de templo iluminada en el centro histórico" width="900" height="675" loading="lazy"><figcaption>Centro histórico</figcaption></figure></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ Beneficios ============ -->
+  <section class="benefits" aria-label="Beneficios">
+    <ul class="container benefits__list">
+      <li><svg class="icon icon--lg" aria-hidden="true"><use href="#i-leaf"/></svg><span>Sustentabilidad</span></li>
+      <li><svg class="icon icon--lg" aria-hidden="true"><use href="#i-shield"/></svg><span>Seguridad</span></li>
+      <li><svg class="icon icon--lg" aria-hidden="true"><use href="#i-users"/></svg><span>Bienestar social</span></li>
+      <li><svg class="icon icon--lg" aria-hidden="true"><use href="#i-piggy"/></svg><span>Ahorro municipal</span></li>
+      <li><svg class="icon icon--lg" aria-hidden="true"><use href="#i-tree"/></svg><span>Entornos más iluminados</span></li>
+    </ul>
+  </section>
+
+  <!-- ============ Municipios ============ -->
+  <section class="munis" aria-labelledby="munis-title">
+    <div class="container container--wide munis__head">
+      <p class="eyebrow eyebrow--dark">Clientes</p>
+      <h2 class="section-title" id="munis-title">Municipios con los que hemos trabajado</h2>
+    </div>
+    <div class="munis__rail">
+      <div class="munis__row">
+        <ul class="munis__track"><li class="munis__item"><img src="assets/img/municipios/altamira.webp" alt="Logo del municipio de Altamira" width="360" height="185" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/arandas.webp" alt="Logo del municipio de Arandas" width="360" height="109" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/cardenas.webp" alt="Logo del municipio de Cárdenas" width="240" height="200" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/coalcoman.webp" alt="Logo del municipio de Coalcomán" width="257" height="200" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/cuauhtemoc.webp" alt="Logo del municipio de Cuauhtémoc" width="249" height="200" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/el-arenal.webp" alt="Logo del municipio de El Arenal" width="360" height="109" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/guadalajara.webp" alt="Logo del municipio de Guadalajara" width="160" height="200" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/jacona.webp" alt="Logo del municipio de Jacona" width="153" height="200" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/juanacatlan.webp" alt="Logo del municipio de Juanacatlán" width="140" height="200" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/mazamitla.webp" alt="Logo del municipio de Mazamitla" width="154" height="200" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/morelia.webp" alt="Logo del municipio de Morelia" width="360" height="139" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/puebla.webp" alt="Logo del municipio de Puebla" width="360" height="155" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/san-ignacio-cerro-gordo.webp" alt="Logo del municipio de San Ignacio Cerro Gordo" width="198" height="200" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/tabasco.webp" alt="Logo del municipio de Tabasco" width="360" height="148" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/tapalpa.webp" alt="Logo del municipio de Tapalpa" width="129" height="200" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/tepatitlan-de-morelos.webp" alt="Logo del municipio de Tepatitlán de Morelos" width="222" height="200" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/tlajomulco.webp" alt="Logo del municipio de Tlajomulco" width="360" height="99" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/tonala.webp" alt="Logo del municipio de Tonalá" width="265" height="200" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/villa-de-alvarez.webp" alt="Logo del municipio de Villa de Álvarez" width="242" height="200" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/zapopan.webp" alt="Logo del municipio de Zapopan" width="173" height="200" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/zinapecuaro.webp" alt="Logo del municipio de Zinapécuaro" width="207" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/altamira.webp" alt="" width="360" height="185" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/arandas.webp" alt="" width="360" height="109" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/cardenas.webp" alt="" width="240" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/coalcoman.webp" alt="" width="257" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/cuauhtemoc.webp" alt="" width="249" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/el-arenal.webp" alt="" width="360" height="109" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/guadalajara.webp" alt="" width="160" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/jacona.webp" alt="" width="153" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/juanacatlan.webp" alt="" width="140" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/mazamitla.webp" alt="" width="154" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/morelia.webp" alt="" width="360" height="139" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/puebla.webp" alt="" width="360" height="155" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/san-ignacio-cerro-gordo.webp" alt="" width="198" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/tabasco.webp" alt="" width="360" height="148" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/tapalpa.webp" alt="" width="129" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/tepatitlan-de-morelos.webp" alt="" width="222" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/tlajomulco.webp" alt="" width="360" height="99" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/tonala.webp" alt="" width="265" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/villa-de-alvarez.webp" alt="" width="242" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/zapopan.webp" alt="" width="173" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/zinapecuaro.webp" alt="" width="207" height="200" loading="lazy"></li></ul>
+      </div>
+      <div class="munis__row munis__row--rev">
+        <ul class="munis__track"><li class="munis__item"><img src="assets/img/municipios/amatitan.webp" alt="Logo del municipio de Amatitán" width="151" height="200" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/ayutla.webp" alt="Logo del municipio de Ayutla" width="149" height="200" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/cinicuila.webp" alt="Logo del municipio de Chinicuila" width="241" height="200" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/cordoba.webp" alt="Logo del municipio de Córdoba" width="255" height="200" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/cuitzeo.webp" alt="Logo del municipio de Cuitzeo" width="158" height="200" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/escobedo.webp" alt="Logo del municipio de General Escobedo" width="181" height="200" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/irapuato.webp" alt="Logo del municipio de Irapuato" width="189" height="200" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/jesus-maria.webp" alt="Logo del municipio de Jesús María" width="139" height="200" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/manzanillo.webp" alt="Logo del municipio de Manzanillo" width="238" height="200" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/mezcala-de-los-romero.webp" alt="Logo del municipio de Mezcala de los Romero" width="360" height="125" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/patzcuaro.webp" alt="Logo del municipio de Pátzcuaro" width="186" height="200" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/queterato.webp" alt="Logo del municipio de Querétaro" width="313" height="200" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/silao.webp" alt="Logo del municipio de Silao" width="360" height="164" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/tala.webp" alt="Logo del municipio de Tala" width="360" height="141" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/tenamaxtlan.webp" alt="Logo del municipio de Tenamaxtlán" width="198" height="200" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/tepic.webp" alt="Logo del municipio de Tepic" width="131" height="200" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/tlaquepaque.webp" alt="Logo del municipio de Tlaquepaque" width="149" height="200" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/valle-de-guadalupe.webp" alt="Logo del municipio de Valle de Guadalupe" width="360" height="117" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/zacoalco-de-torres.webp" alt="Logo del municipio de Zacoalco de Torres" width="225" height="200" loading="lazy"></li><li class="munis__item"><img src="assets/img/municipios/zapotlanejo.webp" alt="Logo del municipio de Zapotlanejo" width="127" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/amatitan.webp" alt="" width="151" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/ayutla.webp" alt="" width="149" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/cinicuila.webp" alt="" width="241" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/cordoba.webp" alt="" width="255" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/cuitzeo.webp" alt="" width="158" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/escobedo.webp" alt="" width="181" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/irapuato.webp" alt="" width="189" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/jesus-maria.webp" alt="" width="139" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/manzanillo.webp" alt="" width="238" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/mezcala-de-los-romero.webp" alt="" width="360" height="125" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/patzcuaro.webp" alt="" width="186" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/queterato.webp" alt="" width="313" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/silao.webp" alt="" width="360" height="164" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/tala.webp" alt="" width="360" height="141" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/tenamaxtlan.webp" alt="" width="198" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/tepic.webp" alt="" width="131" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/tlaquepaque.webp" alt="" width="149" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/valle-de-guadalupe.webp" alt="" width="360" height="117" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/zacoalco-de-torres.webp" alt="" width="225" height="200" loading="lazy"></li><li class="munis__item" aria-hidden="true"><img src="assets/img/municipios/zapotlanejo.webp" alt="" width="127" height="200" loading="lazy"></li></ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ Pie de página ============ -->
+<footer class="site-footer" id="contacto" aria-labelledby="contacto-title">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <a class="brand brand--lg" href="index.html">
+        <img class="brand__logo" src="assets/img/marca/logo-mcu-negativo.webp" alt="Grupo MCU · Alumbrado Tecnológico, volver al inicio" width="476" height="200" loading="lazy">
+      </a>
+      <p>Iluminación exterior LED para municipios, vialidades y espacios públicos.</p>
+      <a class="btn btn--primary btn--sm" href="#contacto" data-wa data-wa-message="Hola, quiero cotizar un proyecto de iluminación LED.">
+        <svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg> Cotiza por WhatsApp
+      </a>
+    </div>
+
+    <nav class="footer__col" aria-label="Enlaces del pie">
+      <h2 class="footer__title">Enlaces</h2>
+      <ul class="footer__links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#green-cobra">Green Cobra</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="financiamiento.html">Financiamiento</a></li>
+        <li><a href="catalogo.html" data-catalog>Catálogo Digital</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <div class="footer__col">
+      <h2 class="footer__title" id="contacto-title">Contacto</h2>
+      <!-- Datos de contacto. WhatsApp, enlace de Facebook, dirección y mapa se completan en assets/js/config.js -->
+      <ul class="contact-list">
+        <li><svg class="icon icon--accent" aria-hidden="true"><use href="#i-phone"/></svg><span class="visually-hidden">Teléfonos: </span><span><a href="tel:+523324062551">33 2406 2551</a> / <a href="tel:+523327708170">33 2770 8170</a></span></li>
+        <li><svg class="icon icon--accent" aria-hidden="true"><use href="#i-phone"/></svg><span class="visually-hidden">Teléfonos: </span><span><a href="tel:+523333305024">33 3330 5024</a> / <a href="tel:+523315231799">33 1523 1799</a></span></li>
+        <li data-contact="whatsapp" hidden><svg class="icon icon--accent" aria-hidden="true"><use href="#i-chat"/></svg><span class="pending">WhatsApp</span></li>
+        <li><svg class="icon icon--accent" aria-hidden="true"><use href="#i-mail"/></svg><a href="mailto:cotizaciones@grupomcu.com">cotizaciones@grupomcu.com</a></li>
+        <li><svg class="icon icon--accent" aria-hidden="true"><use href="#i-instagram"/></svg><span class="visually-hidden">Instagram: </span><a href="https://www.instagram.com/grupomcu_/" target="_blank" rel="noopener">grupomcu_</a></li>
+        <li data-contact="facebook"><svg class="icon icon--accent" aria-hidden="true"><use href="#i-facebook"/></svg><span class="visually-hidden">Facebook: </span><span>Grupo MCU</span></li>
+        <li><svg class="icon icon--accent" aria-hidden="true"><use href="#i-tiktok"/></svg><span class="visually-hidden">TikTok: </span><a href="https://www.tiktok.com/@grupo.mcu" target="_blank" rel="noopener">grupo.mcu</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <h2 class="footer__title">Ubicación</h2>
+      <p class="footer__city"><svg class="icon icon--accent" aria-hidden="true"><use href="#i-pin"/></svg> <span data-contact="city">Guadalajara, Jalisco, México</span></p>
+      <p data-contact="address"><span>Bolivia 2797, C.P. 44950</span></p>
+      <a class="map-slot is-linked" href="https://www.google.com/maps/search/?api=1&amp;query=20.641118%2C-103.376219" target="_blank" rel="noopener" data-contact="maps" aria-label="Ver ubicación en Google Maps">
+        <span class="map-slot__pin"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg></span>
+        <span class="map-slot__label">Ver en Google Maps</span>
+      </a>
+    </div>
+  </div>
+  <div class="container footer__bottom">
+    <p>© <span data-year>2026</span> Grupo MCU · Alumbrado Tecnológico</p>
+  </div>
+</footer>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
