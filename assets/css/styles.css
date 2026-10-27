@@ -1345,7 +1345,7 @@ button { font: inherit; color: inherit; }
 .cat-card__type { font-size: var(--fs-xs); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-soft); }
 .cat-card__name { font-family: var(--font-display); font-weight: 900; font-size: 1.35rem; line-height: 1.15; }
 .cat-card__specs { display: grid; gap: 6px; margin-top: 10px; font-size: var(--fs-sm); }
-.cat-card__specs div { display: grid; grid-template-columns: 82px minmax(0, 1fr); gap: 8px; }
+.cat-card__specs div { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 8px; }
 .cat-card__specs dt { color: var(--ink-soft); font-size: var(--fs-xs); font-weight: 600; text-transform: uppercase; letter-spacing: .04em; padding-top: 2px; }
 .cat-card__specs dd { font-weight: 600; font-variant-numeric: tabular-nums; }
 .cat-card__cta { margin-top: auto; align-self: flex-start; }
@@ -1735,3 +1735,33 @@ button { font: inherit; color: inherit; }
   .munis__row { overflow-x: auto; scrollbar-width: thin; }
   .munis__item[aria-hidden="true"] { display: none; }
 }
+
+/* Financiamiento para municipios */
+.fin-proy { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(28px, 5vw, 72px); align-items: center; }
+.fin-proy__text { display: grid; gap: 16px; }
+.fin-proy__text .eyebrow { margin-bottom: -6px; }
+.fin-proy__text > p:not(.eyebrow) { color: var(--ink-soft); font-size: var(--fs-md); line-height: 1.65; max-width: 52ch; }
+.fin-proy__card { padding: clamp(24px, 3vw, 36px); border-radius: var(--radius); background: var(--mist); border-top: 4px solid var(--yellow); }
+.fin-proy__card h3 { font-family: var(--font-display); font-weight: 900; font-size: 1.3rem; margin-bottom: 18px; text-transform: uppercase; }
+.fin-check { display: grid; gap: 12px; }
+.fin-check li { display: flex; align-items: flex-start; gap: 12px; font-weight: 600; line-height: 1.45; }
+.fin-check .icon { color: var(--black); margin-top: 1px; flex: none; }
+.fin-imp { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: clamp(28px, 5vw, 72px); align-items: start; }
+.fin-imp__apoyo { padding: clamp(24px, 3vw, 32px); border: 1px solid var(--line-dark); border-radius: var(--radius); }
+.fin-imp__lead { font-size: var(--fs-md); line-height: 1.6; color: var(--on-dark-soft); }
+.fin-imp__obj { display: grid; gap: 18px; }
+.fin-imp__obj .eyebrow { margin-bottom: -8px; }
+.fin-imp__note { display: flex; gap: 12px; align-items: flex-start; padding: 16px 18px; border-radius: var(--radius-sm); background: rgba(254,206,0,.1); font-weight: 600; }
+.fin-imp__note .icon { flex: none; margin-top: 2px; }
+.fin-wa { background: var(--yellow); color: var(--black); }
+.fin-wa__inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px 40px; padding-block: clamp(32px, 4vw, 48px); }
+.fin-wa__title { font-family: var(--font-display); font-weight: 900; font-size: clamp(1.5rem, 1.1rem + 1.4vw, 2.2rem); line-height: 1.1; }
+.fin-wa p { margin-top: 6px; max-width: 54ch; }
+@media (max-width: 899px) { .fin-proy, .fin-imp { grid-template-columns: minmax(0, 1fr); } }
+
+/* Ficha técnica en el carrusel de luminarias */
+.gc__specs { display: grid; width: 100%; max-width: 520px; border-top: 1px solid var(--line-light); }
+.gc__specs div { display: grid; grid-template-columns: 130px minmax(0, 1fr); gap: 12px; padding-block: 10px; border-bottom: 1px solid var(--line-light); }
+.gc__specs dt { font-size: var(--fs-xs); font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-soft); padding-top: 2px; }
+.gc__specs dd { font-weight: 600; color: var(--ink); font-variant-numeric: tabular-nums; }
+@media (max-width: 479px) { .gc__specs div { grid-template-columns: minmax(0, 1fr); gap: 2px; } }
