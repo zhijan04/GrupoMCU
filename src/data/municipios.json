@@ -1,0 +1,330 @@
+[
+  {
+    "slug": "altamira",
+    "name": "Altamira",
+    "size": [
+      360,
+      185
+    ]
+  },
+  {
+    "slug": "amatitan",
+    "name": "Amatitán",
+    "size": [
+      151,
+      200
+    ]
+  },
+  {
+    "slug": "arandas",
+    "name": "Arandas",
+    "size": [
+      360,
+      109
+    ]
+  },
+  {
+    "slug": "ayutla",
+    "name": "Ayutla",
+    "size": [
+      149,
+      200
+    ]
+  },
+  {
+    "slug": "cardenas",
+    "name": "Cárdenas",
+    "size": [
+      240,
+      200
+    ]
+  },
+  {
+    "slug": "cinicuila",
+    "name": "Chinicuila",
+    "size": [
+      241,
+      200
+    ]
+  },
+  {
+    "slug": "coalcoman",
+    "name": "Coalcomán",
+    "size": [
+      257,
+      200
+    ]
+  },
+  {
+    "slug": "cordoba",
+    "name": "Córdoba",
+    "size": [
+      255,
+      200
+    ]
+  },
+  {
+    "slug": "cuauhtemoc",
+    "name": "Cuauhtémoc",
+    "size": [
+      249,
+      200
+    ]
+  },
+  {
+    "slug": "cuitzeo",
+    "name": "Cuitzeo",
+    "size": [
+      158,
+      200
+    ]
+  },
+  {
+    "slug": "el-arenal",
+    "name": "El Arenal",
+    "size": [
+      360,
+      109
+    ]
+  },
+  {
+    "slug": "escobedo",
+    "name": "General Escobedo",
+    "size": [
+      181,
+      200
+    ]
+  },
+  {
+    "slug": "guadalajara",
+    "name": "Guadalajara",
+    "size": [
+      160,
+      200
+    ]
+  },
+  {
+    "slug": "irapuato",
+    "name": "Irapuato",
+    "size": [
+      189,
+      200
+    ]
+  },
+  {
+    "slug": "jacona",
+    "name": "Jacona",
+    "size": [
+      153,
+      200
+    ]
+  },
+  {
+    "slug": "jesus-maria",
+    "name": "Jesús María",
+    "size": [
+      139,
+      200
+    ]
+  },
+  {
+    "slug": "juanacatlan",
+    "name": "Juanacatlán",
+    "size": [
+      140,
+      200
+    ]
+  },
+  {
+    "slug": "manzanillo",
+    "name": "Manzanillo",
+    "size": [
+      238,
+      200
+    ]
+  },
+  {
+    "slug": "mazamitla",
+    "name": "Mazamitla",
+    "size": [
+      154,
+      200
+    ]
+  },
+  {
+    "slug": "mezcala-de-los-romero",
+    "name": "Mezcala de los Romero",
+    "size": [
+      360,
+      125
+    ]
+  },
+  {
+    "slug": "morelia",
+    "name": "Morelia",
+    "size": [
+      360,
+      139
+    ]
+  },
+  {
+    "slug": "patzcuaro",
+    "name": "Pátzcuaro",
+    "size": [
+      186,
+      200
+    ]
+  },
+  {
+    "slug": "puebla",
+    "name": "Puebla",
+    "size": [
+      360,
+      155
+    ]
+  },
+  {
+    "slug": "queterato",
+    "name": "Querétaro",
+    "size": [
+      313,
+      200
+    ]
+  },
+  {
+    "slug": "san-ignacio-cerro-gordo",
+    "name": "San Ignacio Cerro Gordo",
+    "size": [
+      198,
+      200
+    ]
+  },
+  {
+    "slug": "silao",
+    "name": "Silao",
+    "size": [
+      360,
+      164
+    ]
+  },
+  {
+    "slug": "tabasco",
+    "name": "Tabasco",
+    "size": [
+      360,
+      148
+    ]
+  },
+  {
+    "slug": "tala",
+    "name": "Tala",
+    "size": [
+      360,
+      141
+    ]
+  },
+  {
+    "slug": "tapalpa",
+    "name": "Tapalpa",
+    "size": [
+      129,
+      200
+    ]
+  },
+  {
+    "slug": "tenamaxtlan",
+    "name": "Tenamaxtlán",
+    "size": [
+      198,
+      200
+    ]
+  },
+  {
+    "slug": "tepatitlan-de-morelos",
+    "name": "Tepatitlán de Morelos",
+    "size": [
+      222,
+      200
+    ]
+  },
+  {
+    "slug": "tepic",
+    "name": "Tepic",
+    "size": [
+      131,
+      200
+    ]
+  },
+  {
+    "slug": "tlajomulco",
+    "name": "Tlajomulco",
+    "size": [
+      360,
+      99
+    ]
+  },
+  {
+    "slug": "tlaquepaque",
+    "name": "Tlaquepaque",
+    "size": [
+      149,
+      200
+    ]
+  },
+  {
+    "slug": "tonala",
+    "name": "Tonalá",
+    "size": [
+      265,
+      200
+    ]
+  },
+  {
+    "slug": "valle-de-guadalupe",
+    "name": "Valle de Guadalupe",
+    "size": [
+      360,
+      117
+    ]
+  },
+  {
+    "slug": "villa-de-alvarez",
+    "name": "Villa de Álvarez",
+    "size": [
+      242,
+      200
+    ]
+  },
+  {
+    "slug": "zacoalco-de-torres",
+    "name": "Zacoalco de Torres",
+    "size": [
+      225,
+      200
+    ]
+  },
+  {
+    "slug": "zapopan",
+    "name": "Zapopan",
+    "size": [
+      173,
+      200
+    ]
+  },
+  {
+    "slug": "zapotlanejo",
+    "name": "Zapotlanejo",
+    "size": [
+      127,
+      200
+    ]
+  },
+  {
+    "slug": "zinapecuaro",
+    "name": "Zinapécuaro",
+    "size": [
+      207,
+      200
+    ]
+  }
+]

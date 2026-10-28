@@ -1,0 +1,222 @@
+[
+  {
+    "slug": "unidad-deportiva-diaz-ordaz-arandas-jalisco-mx",
+    "name": "Unidad Deportiva Díaz Ordaz",
+    "place": "Arandas, Jalisco",
+    "type": "deportivas",
+    "size": [
+      760,
+      428
+    ]
+  },
+  {
+    "slug": "unidad-deportiva-diaz-ordaz-arandas-jalisco-mx1",
+    "name": "Unidad Deportiva Díaz Ordaz, cancha de béisbol",
+    "place": "Arandas, Jalisco",
+    "type": "deportivas",
+    "size": [
+      760,
+      428
+    ]
+  },
+  {
+    "slug": "cancha-de-futbol-7-coalcoman-michoacan-mx",
+    "name": "Cancha de futbol 7",
+    "place": "Coalcomán, Michoacán",
+    "type": "deportivas",
+    "size": [
+      760,
+      428
+    ]
+  },
+  {
+    "slug": "unidad-deportiva-solidaridad-jesus-maria-jalisco-mx",
+    "name": "Unidad Deportiva Solidaridad",
+    "place": "Jesús María, Jalisco",
+    "type": "deportivas",
+    "size": [
+      760,
+      428
+    ]
+  },
+  {
+    "slug": "andador-unidad-deportiva-san-ignacio-cerro-gordo-jalisco",
+    "name": "Andador de la Unidad Deportiva",
+    "place": "San Ignacio Cerro Gordo, Jalisco",
+    "type": "deportivas",
+    "size": [
+      760,
+      428
+    ]
+  },
+  {
+    "slug": "cancha-de-futbol-11-unidad-deportiva-san-ignacio-cerro-gordo-jalisco",
+    "name": "Cancha de futbol 11, Unidad Deportiva",
+    "place": "San Ignacio Cerro Gordo, Jalisco",
+    "type": "deportivas",
+    "size": [
+      608,
+      760
+    ]
+  },
+  {
+    "slug": "corredor-unidad-deportiva-san-ignacio-cerro-gordo-jalisco",
+    "name": "Corredor de la Unidad Deportiva",
+    "place": "San Ignacio Cerro Gordo, Jalisco",
+    "type": "deportivas",
+    "size": [
+      608,
+      760
+    ]
+  },
+  {
+    "slug": "ingreso-unidad-deportiva-san-ignacio-cerro-gordo-jalisco",
+    "name": "Ingreso a la Unidad Deportiva",
+    "place": "San Ignacio Cerro Gordo, Jalisco",
+    "type": "deportivas",
+    "size": [
+      760,
+      428
+    ]
+  },
+  {
+    "slug": "andador-torres-bodet-tlaquepaque-jalisco",
+    "name": "Andador Torres Bodet",
+    "place": "Tlaquepaque, Jalisco",
+    "type": "plazas",
+    "size": [
+      760,
+      428
+    ]
+  },
+  {
+    "slug": "corredor-plaza-la-ladrillera-tlaquepaque-jalisco",
+    "name": "Corredor Plaza La Ladrillera",
+    "place": "Tlaquepaque, Jalisco",
+    "type": "plazas",
+    "size": [
+      608,
+      760
+    ]
+  },
+  {
+    "slug": "plaza-la-ladrillera-tlaquepaque-jalisco",
+    "name": "Plaza La Ladrillera",
+    "place": "Tlaquepaque, Jalisco",
+    "type": "plazas",
+    "size": [
+      608,
+      760
+    ]
+  },
+  {
+    "slug": "andador-zacoalco-de-torres-jalisco-mx",
+    "name": "Andador",
+    "place": "Zacoalco de Torres, Jalisco",
+    "type": "plazas",
+    "size": [
+      760,
+      428
+    ]
+  },
+  {
+    "slug": "iglesia-zacoalco-de-torres-jalisco",
+    "name": "Iglesia",
+    "place": "Zacoalco de Torres, Jalisco",
+    "type": "plazas",
+    "size": [
+      608,
+      760
+    ]
+  },
+  {
+    "slug": "kiosco-zacoalco-de-torres-jalisco-mx",
+    "name": "Kiosco",
+    "place": "Zacoalco de Torres, Jalisco",
+    "type": "plazas",
+    "size": [
+      760,
+      428
+    ]
+  },
+  {
+    "slug": "plaza-flores-magon-zacoalco-de-torres-jalisco-mx",
+    "name": "Plaza Flores Magón",
+    "place": "Zacoalco de Torres, Jalisco",
+    "type": "plazas",
+    "size": [
+      760,
+      428
+    ]
+  },
+  {
+    "slug": "fraccionamiento-mezcala-jalisco-mx",
+    "name": "Fraccionamiento",
+    "place": "Mezcala, Jalisco",
+    "type": "colonias",
+    "size": [
+      760,
+      428
+    ]
+  },
+  {
+    "slug": "fracc-lago-de-como-tepatitlan-jalisco",
+    "name": "Fraccionamiento Lago de Como",
+    "place": "Tepatitlán, Jalisco",
+    "type": "colonias",
+    "size": [
+      608,
+      760
+    ]
+  },
+  {
+    "slug": "colonia-las-pintas-tlaquepaque-jalisco-mx",
+    "name": "Colonia Las Pintas",
+    "place": "Tlaquepaque, Jalisco",
+    "type": "colonias",
+    "size": [
+      760,
+      428
+    ]
+  },
+  {
+    "slug": "san-martin-de-las-flores-de-abajo-tlaquepaque-jalisco-mx",
+    "name": "San Martín de las Flores de Abajo",
+    "place": "Tlaquepaque, Jalisco",
+    "type": "colonias",
+    "size": [
+      760,
+      428
+    ]
+  },
+  {
+    "slug": "comunidades-zacoalco-de-torres-jalisco",
+    "name": "Comunidades",
+    "place": "Zacoalco de Torres, Jalisco",
+    "type": "colonias",
+    "size": [
+      608,
+      760
+    ]
+  },
+  {
+    "slug": "avenida-hidalgo-zapotlanejo-jalisco2",
+    "name": "Avenida Hidalgo",
+    "place": "Zapotlanejo, Jalisco",
+    "type": "vialidades",
+    "size": [
+      608,
+      760
+    ]
+  },
+  {
+    "slug": "carretera-zapotlanejo-gdl",
+    "name": "Carretera Zapotlanejo – Guadalajara",
+    "place": "Zapotlanejo, Jalisco",
+    "type": "vialidades",
+    "size": [
+      608,
+      760
+    ]
+  }
+]

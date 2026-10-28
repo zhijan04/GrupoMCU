@@ -1,0 +1,1738 @@
+[
+  {
+    "id": "vialidades",
+    "title": "Luminarias de vialidades",
+    "subtitle": "Avenidas, calles y vialidades",
+    "cover": "pag-02.webp",
+    "source": "catalogo2026",
+    "items": [
+      {
+        "name": "GreenCobra",
+        "type": "Luminaria vial",
+        "page": 3,
+        "image": "greencobra-ficha.webp",
+        "caption": "ficha técnica",
+        "alt": "Ficha de la luminaria vial GreenCobra: 4,800 a 35,600 lm, 34 W a 200 W",
+        "specs": [
+          [
+            "Flujo",
+            "4,800 a 35,600 lm"
+          ],
+          [
+            "Potencia",
+            "34 W a 200 W"
+          ],
+          [
+            "Protección",
+            "IP66 · IK10"
+          ],
+          [
+            "Garantía",
+            "10 años"
+          ],
+          [
+            "Certificados",
+            "PAESE · NOM-031 · NOM-003 · ISO 9001"
+          ]
+        ]
+      },
+      {
+        "name": "Samlite",
+        "type": "Luminaria vial",
+        "page": 4,
+        "specs": [
+          [
+            "Flujo",
+            "7,250 a 21,750 lm"
+          ],
+          [
+            "Potencia",
+            "50 W a 150 W"
+          ],
+          [
+            "Protección",
+            "IP66 · IK08"
+          ],
+          [
+            "Garantía",
+            "5 años"
+          ]
+        ]
+      },
+      {
+        "name": "Elektra Plus",
+        "type": "Luminaria vial",
+        "page": 5,
+        "specs": [
+          [
+            "Flujo",
+            "7,500 a 16,500 lm"
+          ],
+          [
+            "Potencia",
+            "50 W a 110 W"
+          ],
+          [
+            "Protección",
+            "IP67 · IK08"
+          ],
+          [
+            "Garantía",
+            "5 años"
+          ]
+        ]
+      },
+      {
+        "name": "Ecolite",
+        "type": "Luminaria vial",
+        "page": 6,
+        "specs": [
+          [
+            "Flujo",
+            "7,250 a 21,750 lm"
+          ],
+          [
+            "Potencia",
+            "50 W a 150 W"
+          ],
+          [
+            "Protección",
+            "IP65 · IK08"
+          ],
+          [
+            "Garantía",
+            "3 años"
+          ]
+        ]
+      },
+      {
+        "name": "Aurora",
+        "type": "Luminaria vial",
+        "page": 7,
+        "specs": [
+          [
+            "Flujo",
+            "7,000 a 21,000 lm"
+          ],
+          [
+            "Potencia",
+            "50 W a 150 W"
+          ],
+          [
+            "Protección",
+            "IP65 · IK08"
+          ],
+          [
+            "Garantía",
+            "5 años"
+          ]
+        ]
+      },
+      {
+        "name": "Larissa",
+        "type": "Luminaria vial",
+        "page": 8,
+        "specs": [
+          [
+            "Flujo",
+            "8,000 a 24,000 lm"
+          ],
+          [
+            "Potencia",
+            "50 W a 150 W"
+          ],
+          [
+            "Protección",
+            "IP65 · IK08"
+          ],
+          [
+            "Garantía",
+            "10 años"
+          ]
+        ]
+      }
+    ],
+    "label": "Vialidades"
+  },
+  {
+    "id": "solares",
+    "title": "Luminarias solares",
+    "subtitle": "Sin conexión a la red eléctrica",
+    "cover": "pag-09.webp",
+    "source": "catalogo2026",
+    "items": [
+      {
+        "name": "LAO-S Plus",
+        "type": "Luminaria solar",
+        "page": 10,
+        "specs": [
+          [
+            "Flujo",
+            "8,700 a 17,400 lm"
+          ],
+          [
+            "Potencia",
+            "60 W a 120 W"
+          ],
+          [
+            "Protección",
+            "IP65 · IK08"
+          ],
+          [
+            "Garantía",
+            "Batería 3 · Panel 10 · Luminaria 5 años"
+          ]
+        ]
+      },
+      {
+        "name": "LAO-S Pro",
+        "type": "Luminaria solar",
+        "page": 11,
+        "specs": [
+          [
+            "Flujo",
+            "9,600 a 24,000 lm"
+          ],
+          [
+            "Potencia",
+            "60 W a 150 W"
+          ],
+          [
+            "Protección",
+            "IP65 · IK08"
+          ],
+          [
+            "Garantía",
+            "Batería 5 · Panel 20 · Luminaria 10 años"
+          ]
+        ]
+      },
+      {
+        "name": "SOL-ALTEC 2.0",
+        "type": "Luminaria solar",
+        "page": 12,
+        "specs": [
+          [
+            "Flujo",
+            "8,400 a 18,000 lm"
+          ],
+          [
+            "Potencia",
+            "60 W a 120 W"
+          ],
+          [
+            "Protección",
+            "IP68 · IK10"
+          ],
+          [
+            "Garantía",
+            "5 años"
+          ]
+        ]
+      },
+      {
+        "name": "Olimpo",
+        "type": "Luminaria solar",
+        "page": 13,
+        "specs": [
+          [
+            "Flujo",
+            "10,000 lm"
+          ],
+          [
+            "Potencia",
+            "100 W"
+          ],
+          [
+            "Protección",
+            "IP65 · IK08"
+          ],
+          [
+            "Garantía",
+            "Batería 3 · Luminaria 5 años"
+          ]
+        ]
+      },
+      {
+        "name": "OVNI",
+        "type": "Solar punta de poste",
+        "page": 14,
+        "specs": [
+          [
+            "Flujo",
+            "8,000 lm"
+          ],
+          [
+            "Potencia",
+            "50 W"
+          ],
+          [
+            "Protección",
+            "IP65 · IK08"
+          ],
+          [
+            "Garantía",
+            "Batería 3 · Panel 10 · Luminaria 5 años"
+          ]
+        ]
+      },
+      {
+        "name": "Uranus",
+        "type": "Solar reflector",
+        "page": 15,
+        "specs": [
+          [
+            "Flujo",
+            "3,000 y 6,000 lm"
+          ],
+          [
+            "Protección",
+            "IP65 · IK08"
+          ],
+          [
+            "Garantía",
+            "1 año"
+          ]
+        ]
+      },
+      {
+        "name": "OVNI Plus",
+        "type": "Solar punta de poste",
+        "page": 16,
+        "specs": [
+          [
+            "Flujo",
+            "3,900 lm"
+          ],
+          [
+            "Potencia",
+            "30 W"
+          ],
+          [
+            "Protección",
+            "IP66 · IK08"
+          ],
+          [
+            "Garantía",
+            "2 años"
+          ]
+        ]
+      },
+      {
+        "name": "PP-Titanium",
+        "type": "Solar punta de poste",
+        "page": 17,
+        "specs": [
+          [
+            "Flujo",
+            "4,500 lm"
+          ],
+          [
+            "Potencia",
+            "30 W"
+          ],
+          [
+            "Protección",
+            "IP65 · IK07"
+          ],
+          [
+            "Garantía",
+            "5 años"
+          ]
+        ]
+      },
+      {
+        "name": "Titán",
+        "type": "Solar punta de poste",
+        "page": 18,
+        "specs": [
+          [
+            "Flujo",
+            "3,600 lm"
+          ],
+          [
+            "Potencia",
+            "40 W"
+          ],
+          [
+            "Protección",
+            "IP65 · IK08"
+          ],
+          [
+            "Garantía",
+            "Batería 2 · Luminaria 3 años"
+          ]
+        ]
+      },
+      {
+        "name": "Lyra",
+        "type": "Solar punta de poste",
+        "page": 19,
+        "specs": [
+          [
+            "Flujo",
+            "3,600 lm"
+          ],
+          [
+            "Potencia",
+            "40 W"
+          ],
+          [
+            "Protección",
+            "IP65 · IK08"
+          ],
+          [
+            "Garantía",
+            "Batería 2 · Luminaria 3 años"
+          ]
+        ]
+      },
+      {
+        "name": "Nova",
+        "type": "Solar vial",
+        "page": 20,
+        "specs": [
+          [
+            "Flujo",
+            "4,500 lm"
+          ],
+          [
+            "Potencia",
+            "50 W"
+          ],
+          [
+            "Protección",
+            "IP65 · IK08"
+          ],
+          [
+            "Garantía",
+            "Batería 2 · Luminaria 3 años"
+          ]
+        ]
+      },
+      {
+        "name": "Calypso",
+        "type": "Solar vial",
+        "page": 21,
+        "specs": [
+          [
+            "Flujo",
+            "9,000 lm"
+          ],
+          [
+            "Potencia",
+            "100 W"
+          ],
+          [
+            "Protección",
+            "IP65 · IK08"
+          ],
+          [
+            "Garantía",
+            "Batería 2 · Luminaria 3 años"
+          ]
+        ]
+      },
+      {
+        "name": "Crux",
+        "type": "Solar reflector",
+        "page": 22,
+        "specs": [
+          [
+            "Flujo",
+            "8,000 a 16,000 lm"
+          ],
+          [
+            "Potencia",
+            "100 W y 200 W"
+          ],
+          [
+            "Protección",
+            "IP65 · IK08"
+          ],
+          [
+            "Garantía",
+            "Batería 2 · Luminaria 3 años"
+          ]
+        ]
+      },
+      {
+        "name": "Hydra",
+        "type": "Solar reflector",
+        "page": 23,
+        "specs": [
+          [
+            "Flujo",
+            "9,000 lm"
+          ],
+          [
+            "Potencia",
+            "100 W"
+          ],
+          [
+            "Protección",
+            "IP65 · IK08"
+          ],
+          [
+            "Garantía",
+            "Batería 2 · Luminaria 3 años"
+          ]
+        ]
+      }
+    ],
+    "label": "Solares"
+  },
+  {
+    "id": "punta-de-poste",
+    "title": "Luminarias punta de poste",
+    "subtitle": "Plazas, parques y andadores",
+    "cover": "pag-24.webp",
+    "source": "catalogo2026",
+    "items": [
+      {
+        "name": "Olimpia",
+        "type": "Punta de poste",
+        "page": 25,
+        "specs": [
+          [
+            "Flujo",
+            "9,800 a 14,000 lm"
+          ],
+          [
+            "Potencia",
+            "70 W a 100 W"
+          ],
+          [
+            "Protección",
+            "IP67 · IK10"
+          ],
+          [
+            "Garantía",
+            "10 años"
+          ]
+        ]
+      },
+      {
+        "name": "Afrodita",
+        "type": "Punta de poste",
+        "page": 26,
+        "specs": [
+          [
+            "Flujo",
+            "8,400 a 12,000 lm"
+          ],
+          [
+            "Potencia",
+            "70 W a 100 W"
+          ],
+          [
+            "Protección",
+            "IP65 · IK08"
+          ],
+          [
+            "Garantía",
+            "10 años"
+          ]
+        ]
+      },
+      {
+        "name": "Helios",
+        "type": "Punta de poste",
+        "page": 27,
+        "specs": [
+          [
+            "Flujo",
+            "7,200 lm"
+          ],
+          [
+            "Potencia",
+            "60 W"
+          ],
+          [
+            "Protección",
+            "IP65 · IK08"
+          ],
+          [
+            "Garantía",
+            "5 años"
+          ]
+        ]
+      },
+      {
+        "name": "Villa plus",
+        "type": "Punta de poste",
+        "page": 28,
+        "specs": [
+          [
+            "Flujo",
+            "4,200 a 14,000 lm"
+          ],
+          [
+            "Potencia",
+            "30 W a 100 W"
+          ],
+          [
+            "Protección",
+            "IP67 · IK10"
+          ],
+          [
+            "Garantía",
+            "5 años"
+          ]
+        ]
+      },
+      {
+        "name": "Ronda plus",
+        "type": "Punta de poste",
+        "page": 29,
+        "specs": [
+          [
+            "Flujo",
+            "3,750 a 12,500 lm"
+          ],
+          [
+            "Potencia",
+            "30 W a 100 W"
+          ],
+          [
+            "Protección",
+            "IP67 · IK10"
+          ],
+          [
+            "Garantía",
+            "5 años"
+          ]
+        ]
+      },
+      {
+        "name": "Alfa I",
+        "type": "Punta de poste",
+        "page": 30,
+        "specs": [
+          [
+            "Flujo",
+            "3,750 a 12,500 lm"
+          ],
+          [
+            "Potencia",
+            "30 W a 100 W"
+          ],
+          [
+            "Protección",
+            "IP67 · IK10"
+          ],
+          [
+            "Garantía",
+            "5 años"
+          ]
+        ]
+      },
+      {
+        "name": "Zafiro",
+        "type": "Punta de poste",
+        "page": 31,
+        "specs": [
+          [
+            "Flujo",
+            "4,500 a 15,000 lm"
+          ],
+          [
+            "Potencia",
+            "30 W a 100 W"
+          ],
+          [
+            "Protección",
+            "IP67 · IK10"
+          ],
+          [
+            "Garantía",
+            "10 años"
+          ]
+        ]
+      },
+      {
+        "name": "Clio",
+        "type": "Punta de poste",
+        "page": 32,
+        "specs": [
+          [
+            "Flujo",
+            "3,750 a 12,500 lm"
+          ],
+          [
+            "Potencia",
+            "30 W a 100 W"
+          ],
+          [
+            "Protección",
+            "IP67 · IK09"
+          ],
+          [
+            "Garantía",
+            "5 años"
+          ]
+        ]
+      },
+      {
+        "name": "Cora",
+        "type": "Punta de poste",
+        "page": 33,
+        "specs": [
+          [
+            "Flujo",
+            "3,750 a 12,500 lm"
+          ],
+          [
+            "Potencia",
+            "30 W a 100 W"
+          ],
+          [
+            "Protección",
+            "IP66 · IK08"
+          ],
+          [
+            "Garantía",
+            "5 años"
+          ]
+        ]
+      },
+      {
+        "name": "Cóndor",
+        "type": "Punta de poste",
+        "page": 34,
+        "specs": [
+          [
+            "Flujo",
+            "14,000 lm"
+          ],
+          [
+            "Potencia",
+            "100 W"
+          ],
+          [
+            "Protección",
+            "IP65 · IK08"
+          ],
+          [
+            "Garantía",
+            "10 años"
+          ]
+        ]
+      },
+      {
+        "name": "Vega",
+        "type": "Punta de poste",
+        "page": 35,
+        "specs": [
+          [
+            "Flujo",
+            "4,500 lm"
+          ],
+          [
+            "Potencia",
+            "30 W"
+          ],
+          [
+            "Protección",
+            "IP65 · IK08"
+          ],
+          [
+            "Garantía",
+            "5 años"
+          ]
+        ]
+      }
+    ],
+    "label": "Punta de poste"
+  },
+  {
+    "id": "ornamentales",
+    "title": "Luminarias ornamentales",
+    "subtitle": "Faroles coloniales de punta de poste y colgantes",
+    "cover": "orn/pag-01.webp",
+    "source": "ornamentales",
+    "pdf": "assets/catalogo/luminarias-ornamentales-grupo-mcu.pdf",
+    "items": [
+      {
+        "name": "Asis",
+        "type": "Punta de poste",
+        "page": 2,
+        "image": "orn/p2-1.webp",
+        "specs": [
+          [
+            "Medidas",
+            "98 × 45 cm (alto × ancho)"
+          ],
+          [
+            "Potencia",
+            "Hasta 250 W"
+          ],
+          [
+            "Espiga",
+            "1½\" Ø × 3\" largo"
+          ],
+          [
+            "Uso",
+            "Alumbrado público, plazas y parques"
+          ]
+        ]
+      },
+      {
+        "name": "Colonial Residencial",
+        "type": "Punta de poste",
+        "page": 2,
+        "image": "orn/p2-2.webp",
+        "specs": [
+          [
+            "Medidas",
+            "91 × 37 cm (alto × ancho)"
+          ],
+          [
+            "Potencia",
+            "Hasta 250 W"
+          ],
+          [
+            "Espiga",
+            "1½\" Ø × 3\" largo"
+          ],
+          [
+            "Uso",
+            "Alumbrado público, plazas y jardines"
+          ]
+        ]
+      },
+      {
+        "name": "Colonial Residencial Austera",
+        "type": "Punta de poste",
+        "page": 2,
+        "image": "orn/p2-3.webp",
+        "specs": [
+          [
+            "Medidas",
+            "91 × 37 cm (alto × ancho)"
+          ],
+          [
+            "Potencia",
+            "Hasta 250 W"
+          ],
+          [
+            "Espiga",
+            "1½\" Ø × 3\" largo"
+          ],
+          [
+            "Uso",
+            "Alumbrado público, plazas y parques"
+          ]
+        ]
+      },
+      {
+        "name": "Colonial Residencial Colgante",
+        "type": "Farol para colgar",
+        "page": 2,
+        "image": "orn/p2-4.webp",
+        "specs": [
+          [
+            "Medidas",
+            "91 × 37 cm (alto × ancho)"
+          ],
+          [
+            "Potencia",
+            "Hasta 250 W"
+          ],
+          [
+            "Uso",
+            "Alumbrado público, plazas y jardines"
+          ]
+        ]
+      },
+      {
+        "name": "Colonial Tapatía",
+        "type": "Punta de poste",
+        "page": 3,
+        "image": "orn/p3-1.webp",
+        "specs": [
+          [
+            "Medidas",
+            "95 × 43 cm (alto × ancho)"
+          ],
+          [
+            "Potencia",
+            "Hasta 250 W"
+          ],
+          [
+            "Espiga",
+            "2\" Ø"
+          ],
+          [
+            "Uso",
+            "Alumbrado público, plazas y parques"
+          ]
+        ]
+      },
+      {
+        "name": "Colonial Francesa",
+        "type": "Punta de poste",
+        "page": 3,
+        "image": "orn/p3-2.webp",
+        "specs": [
+          [
+            "Medidas",
+            "99 × 65 cm (alto × ancho)"
+          ],
+          [
+            "Potencia",
+            "Hasta 250 W"
+          ],
+          [
+            "Espiga",
+            "3\" Ø × 3\" largo"
+          ],
+          [
+            "Uso",
+            "Alumbrado público, plazas y jardines"
+          ]
+        ]
+      },
+      {
+        "name": "Colonial Venecia",
+        "type": "Punta de poste",
+        "page": 3,
+        "image": "orn/p3-3.webp",
+        "specs": [
+          [
+            "Medidas",
+            "89 × 45 cm (alto × ancho)"
+          ],
+          [
+            "Potencia",
+            "Hasta 250 W"
+          ],
+          [
+            "Espiga",
+            "1¼\" Ø × 1½\" largo"
+          ],
+          [
+            "Uso",
+            "Alumbrado público, plazas y parques"
+          ]
+        ]
+      },
+      {
+        "name": "Colonial Imperial",
+        "type": "Punta de poste",
+        "page": 3,
+        "image": "orn/p3-4.webp",
+        "specs": [
+          [
+            "Medidas",
+            "95 × 45 cm (alto × ancho)"
+          ],
+          [
+            "Potencia",
+            "Hasta 250 W"
+          ],
+          [
+            "Espiga",
+            "1¼\" Ø × 1½\" largo"
+          ],
+          [
+            "Uso",
+            "Alumbrado público, plazas y jardines"
+          ]
+        ]
+      },
+      {
+        "name": "Colonial Mini Imperial",
+        "type": "Punta de poste pequeño o ménsula de muro",
+        "page": 4,
+        "image": "orn/p4-1.webp",
+        "specs": [
+          [
+            "Medidas",
+            "65 × 30 cm (alto × ancho)"
+          ],
+          [
+            "Potencia",
+            "Hasta 100 W"
+          ],
+          [
+            "Espiga",
+            "¾\""
+          ],
+          [
+            "Uso",
+            "Iluminación doméstica"
+          ]
+        ]
+      },
+      {
+        "name": "Colonial Tlaquepaque",
+        "type": "Punta de poste",
+        "page": 4,
+        "image": "orn/p4-2.webp",
+        "specs": [
+          [
+            "Medidas",
+            "97 × 49 cm (alto × ancho)"
+          ],
+          [
+            "Potencia",
+            "Hasta 250 W"
+          ],
+          [
+            "Espiga",
+            "3\" Ø × 3\" largo"
+          ],
+          [
+            "Uso",
+            "Alumbrado público, plazas y jardines"
+          ]
+        ]
+      },
+      {
+        "name": "Colonial Siglo XVI",
+        "type": "Punta de poste",
+        "page": 4,
+        "image": "orn/p4-3.webp",
+        "specs": [
+          [
+            "Medidas",
+            "103 × 37 cm (alto × ancho)"
+          ],
+          [
+            "Potencia",
+            "Hasta 250 W"
+          ],
+          [
+            "Espiga",
+            "1½\" Ø × 3\" largo"
+          ],
+          [
+            "Uso",
+            "Alumbrado público, plazas y parques"
+          ]
+        ]
+      },
+      {
+        "name": "Colonial Siglo XXI",
+        "type": "Punta de poste",
+        "page": 4,
+        "image": "orn/p4-4.webp",
+        "specs": [
+          [
+            "Medidas",
+            "95 × 42 cm (alto × ancho)"
+          ],
+          [
+            "Potencia",
+            "Hasta 250 W"
+          ],
+          [
+            "Espiga",
+            "2\" Ø × 3\" largo"
+          ],
+          [
+            "Uso",
+            "Alumbrado público, plazas y jardines"
+          ]
+        ]
+      },
+      {
+        "name": "Colonial Antique",
+        "type": "Punta de poste",
+        "page": 5,
+        "image": "orn/p5-1.webp",
+        "specs": [
+          [
+            "Medidas",
+            "95 × 42 cm (alto × ancho)"
+          ],
+          [
+            "Potencia",
+            "Hasta 250 W"
+          ],
+          [
+            "Espiga",
+            "2\" Ø × 3\" largo"
+          ],
+          [
+            "Uso",
+            "Alumbrado público, plazas y jardines"
+          ]
+        ]
+      },
+      {
+        "name": "Colonial Querétaro, pantalla abierta",
+        "type": "Lámpara colgante",
+        "page": 5,
+        "image": "orn/p5-2.webp",
+        "specs": [
+          [
+            "Medidas",
+            "71 × 41 cm (alto × ancho)"
+          ],
+          [
+            "Potencia",
+            "Hasta 175 W"
+          ],
+          [
+            "Uso",
+            "Alumbrado público, plazas y parques"
+          ]
+        ]
+      },
+      {
+        "name": "Colonial Querétaro, pantalla de gota",
+        "type": "Lámpara colgante",
+        "page": 5,
+        "image": "orn/p5-3.webp",
+        "specs": [
+          [
+            "Medidas",
+            "71 × 41 cm (alto × ancho)"
+          ],
+          [
+            "Potencia",
+            "Hasta 175 W"
+          ],
+          [
+            "Uso",
+            "Alumbrado público, plazas y jardines"
+          ]
+        ]
+      },
+      {
+        "name": "Colonial Campestre",
+        "type": "Punta de poste",
+        "page": 5,
+        "image": "orn/p5-4.webp",
+        "specs": [
+          [
+            "Medidas",
+            "75 × 37 cm (alto × ancho)"
+          ],
+          [
+            "Potencia",
+            "Hasta 250 W"
+          ],
+          [
+            "Espiga",
+            "2½\" Ø × 3\" largo"
+          ],
+          [
+            "Uso",
+            "Alumbrado público, plazas y parques"
+          ]
+        ]
+      },
+      {
+        "name": "Colonial Barroco",
+        "type": "Punta de poste",
+        "page": 6,
+        "image": "orn/p6-1.webp",
+        "specs": [
+          [
+            "Medidas",
+            "106 × 46 cm (alto × ancho)"
+          ],
+          [
+            "Potencia",
+            "Hasta 250 W"
+          ],
+          [
+            "Espiga",
+            "2\" Ø × 2½\" largo"
+          ],
+          [
+            "Uso",
+            "Alumbrado público, plazas y parques"
+          ]
+        ]
+      },
+      {
+        "name": "Colonial Castillo",
+        "type": "Punta de poste",
+        "page": 6,
+        "image": "orn/p6-2.webp",
+        "specs": [
+          [
+            "Medidas",
+            "80 × 36 cm (alto × ancho)"
+          ],
+          [
+            "Potencia",
+            "Luz incandescente"
+          ],
+          [
+            "Espiga",
+            "1½\""
+          ],
+          [
+            "Uso",
+            "Plazas, jardines y haciendas"
+          ]
+        ]
+      },
+      {
+        "name": "Colonial Nayarit",
+        "type": "Punta de poste",
+        "page": 6,
+        "image": "orn/p6-3.webp",
+        "specs": [
+          [
+            "Medidas",
+            "76 × 46 cm (alto × ancho)"
+          ],
+          [
+            "Potencia",
+            "Hasta 250 W"
+          ],
+          [
+            "Espiga",
+            "2½\" Ø × 3\" largo"
+          ],
+          [
+            "Uso",
+            "Alumbrado público, plazas y jardines"
+          ]
+        ]
+      },
+      {
+        "name": "Colonial Venecia Gota",
+        "type": "Farol para colgar",
+        "page": 6,
+        "image": "orn/p6-4.webp",
+        "specs": [
+          [
+            "Medidas",
+            "60 × 45 cm (alto × ancho)"
+          ],
+          [
+            "Potencia",
+            "Hasta 250 W"
+          ],
+          [
+            "Uso",
+            "Alumbrado público, plazas y parques"
+          ]
+        ]
+      },
+      {
+        "name": "Colonial Mexicano",
+        "type": "Punta de poste",
+        "page": 7,
+        "image": "orn/p7-1.webp",
+        "specs": [
+          [
+            "Medidas",
+            "61 × 47 cm (alto × ancho)"
+          ],
+          [
+            "Potencia",
+            "Hasta 250 W"
+          ],
+          [
+            "Espiga",
+            "2½\" Ø × 3\" largo"
+          ],
+          [
+            "Uso",
+            "Alumbrado público, plazas y jardines"
+          ]
+        ]
+      },
+      {
+        "name": "Colonial Mexicano Colgante",
+        "type": "Farol para colgar",
+        "page": 7,
+        "image": "orn/p7-2.webp",
+        "specs": [
+          [
+            "Medidas",
+            "87 × 47 cm (alto × ancho)"
+          ],
+          [
+            "Potencia",
+            "Hasta 250 W"
+          ],
+          [
+            "Uso",
+            "Alumbrado público, plazas, jardines y parques"
+          ]
+        ]
+      },
+      {
+        "name": "San Ignacio",
+        "type": "Punta de poste",
+        "page": 7,
+        "image": "orn/p7-3.webp",
+        "specs": [
+          [
+            "Medidas",
+            "87 × 45 cm (alto × ancho)"
+          ],
+          [
+            "Potencia",
+            "Hasta 250 W"
+          ],
+          [
+            "Espiga",
+            "2\" Ø × 3\" largo"
+          ],
+          [
+            "Uso",
+            "Alumbrado público, plazas, jardines y parques"
+          ]
+        ]
+      },
+      {
+        "name": "Oriental",
+        "type": "Punta de poste",
+        "page": 7,
+        "image": "orn/p7-4.webp",
+        "specs": [
+          [
+            "Medidas",
+            "95 × 43.5 cm (alto × ancho)"
+          ],
+          [
+            "Potencia",
+            "Hasta 150 W"
+          ],
+          [
+            "Espiga",
+            "2.5\" nominal"
+          ],
+          [
+            "Uso",
+            "Alumbrado público, plazas, jardines y parques"
+          ]
+        ]
+      },
+      {
+        "name": "Colonial Reforma",
+        "type": "Punta de poste",
+        "page": 8,
+        "image": "orn/p8-1.webp",
+        "specs": [
+          [
+            "Medidas",
+            "95 × 45 cm (alto × ancho)"
+          ],
+          [
+            "Potencia",
+            "Hasta 250 W"
+          ],
+          [
+            "Espiga",
+            "2\" Ø × 3\" largo"
+          ],
+          [
+            "Uso",
+            "Alumbrado público, plazas y parques"
+          ]
+        ]
+      },
+      {
+        "name": "Colonial Reforma II",
+        "type": "Punta de poste",
+        "page": 8,
+        "image": "orn/p8-2.webp",
+        "specs": [
+          [
+            "Medidas",
+            "95 × 48 cm (alto × ancho)"
+          ],
+          [
+            "Potencia",
+            "Hasta 250 W"
+          ],
+          [
+            "Espiga",
+            "2\" Ø × 3\" largo"
+          ],
+          [
+            "Uso",
+            "Alumbrado público, plazas y jardines"
+          ]
+        ]
+      },
+      {
+        "name": "Vallarta",
+        "type": "Lámpara colgante",
+        "page": 8,
+        "image": "orn/p8-3.webp",
+        "specs": [
+          [
+            "Medidas",
+            "71 × 41 cm (alto × ancho)"
+          ],
+          [
+            "Potencia",
+            "Hasta 250 W"
+          ],
+          [
+            "Uso",
+            "Alumbrado público, plazas y jardines"
+          ]
+        ]
+      },
+      {
+        "name": "Vallarta Alerón",
+        "type": "Lámpara colgante",
+        "page": 8,
+        "image": "orn/p8-4.webp",
+        "specs": [
+          [
+            "Medidas",
+            "71 × 74 cm (alto × ancho)"
+          ],
+          [
+            "Potencia",
+            "Hasta 250 W"
+          ],
+          [
+            "Uso",
+            "Alumbrado público, plazas y jardines"
+          ]
+        ]
+      }
+    ],
+    "label": "Ornamentales"
+  },
+  {
+    "id": "reflectores",
+    "title": "Luminarias reflectores",
+    "subtitle": "Canchas, estadios y fachadas",
+    "cover": "pag-36.webp",
+    "source": "catalogo2026",
+    "items": [
+      {
+        "name": "Kronos",
+        "type": "Reflector",
+        "page": 37,
+        "specs": [
+          [
+            "Flujo",
+            "33,000 a 82,500 lm"
+          ],
+          [
+            "Potencia",
+            "200 W a 500 W"
+          ],
+          [
+            "Protección",
+            "IP66 · IK08"
+          ],
+          [
+            "Garantía",
+            "5 años"
+          ]
+        ]
+      },
+      {
+        "name": "Halcón",
+        "type": "Reflector",
+        "page": 38,
+        "specs": [
+          [
+            "Flujo",
+            "14,000 a 76,000 lm"
+          ],
+          [
+            "Potencia",
+            "100 W a 500 W"
+          ],
+          [
+            "Protección",
+            "IP66 · IK10"
+          ],
+          [
+            "Garantía",
+            "5 años"
+          ]
+        ]
+      },
+      {
+        "name": "Halcón Eco",
+        "type": "Reflector",
+        "page": 39,
+        "specs": [
+          [
+            "Flujo",
+            "48,000 y 60,000 lm"
+          ],
+          [
+            "Potencia",
+            "400 W y 500 W"
+          ],
+          [
+            "Protección",
+            "IP66 · IK10"
+          ],
+          [
+            "Garantía",
+            "1 año"
+          ]
+        ]
+      },
+      {
+        "name": "Orión",
+        "type": "Reflector",
+        "page": 40,
+        "specs": [
+          [
+            "Flujo",
+            "28,000 a 140,000 lm"
+          ],
+          [
+            "Potencia",
+            "200 W a 1,000 W"
+          ],
+          [
+            "Protección",
+            "IP65 · IK08"
+          ],
+          [
+            "Garantía",
+            "5 años"
+          ]
+        ]
+      },
+      {
+        "name": "Túnel",
+        "type": "Reflector",
+        "page": 41,
+        "specs": [
+          [
+            "Flujo",
+            "6,500 y 13,000 lm"
+          ],
+          [
+            "Potencia",
+            "50 W y 100 W"
+          ],
+          [
+            "Protección",
+            "IP66 · IK08"
+          ],
+          [
+            "Garantía",
+            "5 años"
+          ]
+        ]
+      },
+      {
+        "name": "Nebula",
+        "type": "Reflector",
+        "page": 42,
+        "specs": [
+          [
+            "Flujo",
+            "6,500 y 19,500 lm"
+          ],
+          [
+            "Potencia",
+            "50 W y 150 W"
+          ],
+          [
+            "Protección",
+            "IP65 · IK08"
+          ],
+          [
+            "Garantía",
+            "5 años"
+          ]
+        ]
+      }
+    ],
+    "label": "Reflectores"
+  },
+  {
+    "id": "campanas",
+    "title": "Luminarias campanas",
+    "subtitle": "Naves industriales, bodegas y gimnasios",
+    "cover": "pag-43.webp",
+    "source": "catalogo2026",
+    "items": [
+      {
+        "name": "Minerva",
+        "type": "Colgante",
+        "page": 44,
+        "specs": [
+          [
+            "Flujo",
+            "14,400 a 45,000 lm"
+          ],
+          [
+            "Potencia",
+            "80 W y 250 W"
+          ],
+          [
+            "Protección",
+            "IP65 · IK08"
+          ],
+          [
+            "Garantía",
+            "7 años"
+          ]
+        ]
+      },
+      {
+        "name": "ECO minerva",
+        "type": "Colgante",
+        "page": 45,
+        "specs": [
+          [
+            "Flujo",
+            "15,000 a 30,000 lm"
+          ],
+          [
+            "Potencia",
+            "100 W a 200 W"
+          ],
+          [
+            "Protección",
+            "IP65 · IK08"
+          ],
+          [
+            "Garantía",
+            "5 años"
+          ]
+        ]
+      },
+      {
+        "name": "SLIM minerva",
+        "type": "Colgante",
+        "page": 46,
+        "specs": [
+          [
+            "Flujo",
+            "12,000 a 24,000 lm"
+          ],
+          [
+            "Potencia",
+            "100 W a 200 W"
+          ],
+          [
+            "Protección",
+            "IP65 · IK08"
+          ],
+          [
+            "Garantía",
+            "2 años"
+          ]
+        ]
+      }
+    ],
+    "label": "Campanas"
+  },
+  {
+    "id": "interiores",
+    "title": "Luminarias interiores",
+    "subtitle": "Oficinas, pasillos y estacionamientos",
+    "cover": "pag-47.webp",
+    "source": "catalogo2026",
+    "items": [
+      {
+        "name": "Planet",
+        "type": "Interiores",
+        "page": 48,
+        "specs": [
+          [
+            "Flujo",
+            "3,880 a 6,984 lm"
+          ],
+          [
+            "Potencia",
+            "40 W y 72 W"
+          ],
+          [
+            "Protección",
+            "IP65 · IK06"
+          ],
+          [
+            "Garantía",
+            "3 años"
+          ]
+        ]
+      },
+      {
+        "name": "Eclipse",
+        "type": "Interiores",
+        "page": 49,
+        "specs": [
+          [
+            "Flujo",
+            "3,200 a 9,600 lm"
+          ],
+          [
+            "Potencia",
+            "32 W a 93 W"
+          ],
+          [
+            "Protección",
+            "IP66 · IK06"
+          ],
+          [
+            "Garantía",
+            "5 años"
+          ]
+        ]
+      }
+    ],
+    "label": "Interiores"
+  },
+  {
+    "id": "postes",
+    "title": "Postes, brazos y anclas",
+    "subtitle": "Estructura e instalación",
+    "cover": "pag-50.webp",
+    "source": "catalogo2026",
+    "items": [
+      {
+        "name": "Poste metálico recto circular 4\"",
+        "type": "3 a 6 m",
+        "page": 51,
+        "layout": "sheet"
+      },
+      {
+        "name": "Poste metálico cónico circular",
+        "type": "4 a 12 m",
+        "page": 52,
+        "layout": "sheet"
+      },
+      {
+        "name": "Poste metálico Xalixco",
+        "type": "7 a 12 m",
+        "page": 53,
+        "layout": "sheet"
+      },
+      {
+        "name": "Poste metálico recto circular",
+        "type": "3 a 9 m",
+        "page": 54,
+        "layout": "sheet"
+      },
+      {
+        "name": "Brazo para poste metálico y de concreto",
+        "type": "Accesorio",
+        "page": 55,
+        "layout": "sheet"
+      },
+      {
+        "name": "Ancla",
+        "type": "Accesorio",
+        "page": 56,
+        "layout": "sheet"
+      },
+      {
+        "name": "Fotocelda",
+        "type": "Accesorio",
+        "page": 57,
+        "layout": "sheet"
+      }
+    ],
+    "label": "Postes, brazos y anclas"
+  }
+]

@@ -1,0 +1,255 @@
+
+  <section class="hero" id="inicio" aria-labelledby="hero-title">
+    <div class="hero__bg" aria-hidden="true">
+      <img src="assets/img/ambiente/hero.webp" alt="" width="2600" height="1100" fetchpriority="high">
+    </div>
+    <div class="hero__wedge" aria-hidden="true"></div>
+
+    <div class="container container--wide hero__inner">
+      <h1 class="hero__title" id="hero-title">
+        <span><span class="hero__title-thin">Soluciones</span> de</span>
+        <span>Alumbrado <em>Público</em></span>
+      </h1>
+      <p class="hero__lead">Soluciones para municipios, vialidades y espacios públicos.</p>
+
+      <ul class="hero__benefits">
+        <li><svg class="icon icon--accent" aria-hidden="true"><use href="#i-zap"/></svg><span>Ahorro de energía <br>hasta un 60%</span></li>
+        <li><svg class="icon icon--accent" aria-hidden="true"><use href="#i-gear"/></svg><span>Proyectos <br>integrales</span></li>
+        <li><svg class="icon icon--accent" aria-hidden="true"><use href="#i-shield"/></svg><span>Calidad <br>y durabilidad</span></li>
+      </ul>
+
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#productos">Conoce nuestros productos <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn--outline" href="#contacto" data-wa="Hola, quiero información sobre sus soluciones de iluminación LED.">Contáctanos</a>
+      </div>
+    </div>
+  </section>
+  <section class="section section--white" id="productos" aria-labelledby="productos-title">
+    <div class="container">
+      <p class="eyebrow">Nuestros productos</p>
+      <h2 class="section-title" id="productos-title">Soluciones para cada espacio</h2>
+      <ul class="product-grid">
+        <li class="product-card product-card--vial">
+          <div class="product-card__media">
+            <img src="assets/img/productos/green-cobra-3.webp" alt="Luminaria vial Green Cobra con el módulo LED encendido" width="1100" height="479" loading="lazy">
+          </div>
+          <div class="product-card__body">
+            <p class="product-card__type">Luminaria vial</p>
+            <h3 class="product-card__name">GREEN COBRA</h3>
+            <p class="product-card__spec">34 – 200 Watts</p>
+            <a class="round-btn" href="#green-cobra" aria-label="Ver detalle de Green Cobra">
+              <svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg>
+            </a>
+          </div>
+        </li>
+
+        <li class="product-card product-card--solar">
+          <div class="product-card__media">
+            <img src="assets/img/productos/lao-s-pro-poste.webp" alt="Luminaria solar LAO-S Pro montada en poste" width="1394" height="1500" loading="lazy">
+          </div>
+          <div class="product-card__body">
+            <p class="product-card__type">Luminaria solar</p>
+            <h3 class="product-card__name">LAO-S Pro</h3>
+            <p class="product-card__spec">60 – 150 Watts</p>
+            <a class="round-btn" href="#lao-s-pro" aria-label="Ver detalle de LAO-S Pro">
+              <svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg>
+            </a>
+          </div>
+        </li>
+
+        <li class="product-card product-card--ornamental">
+          <div class="product-card__media">
+            <img src="assets/img/productos/afrodita-2.webp" alt="Luminaria punta de poste Afrodita con brazo en forma de Y" width="931" height="1032" loading="lazy">
+          </div>
+          <div class="product-card__body">
+            <p class="product-card__type">Luminaria punta de poste</p>
+            <h3 class="product-card__name">AFRODITA</h3>
+            <p class="product-card__spec">Potencia a consultar</p>
+            <a class="round-btn" href="#afrodita" aria-label="Ver detalle de Afrodita">
+              <svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="section section--mist lines" id="luminarias" aria-labelledby="lineas-title" aria-roledescription="carrusel">
+    <div class="container">
+      <div class="lines__head">
+        <div>
+          <p class="eyebrow">Línea de productos</p>
+          <h2 class="section-title" id="lineas-title">Conoce cada luminaria</h2>
+        </div>
+        <div class="lines__controls">
+          <div class="lines__tabs" role="group" aria-label="Elegir luminaria">
+            <button type="button" class="lines__tab" data-go="0" aria-controls="green-cobra" aria-current="true">Green Cobra</button>
+            <button type="button" class="lines__tab" data-go="1" aria-controls="lao-s-pro">LAO-S Pro</button>
+            <button type="button" class="lines__tab" data-go="2" aria-controls="afrodita">Afrodita</button>
+          </div>
+          <div class="lines__arrows">
+            <button type="button" class="arrow-btn" data-dir="-1" aria-label="Luminaria anterior"><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></button>
+            <button type="button" class="arrow-btn" data-dir="1" aria-label="Luminaria siguiente"><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></button>
+          </div>
+        </div>
+      </div>
+      <div class="lines__track" tabindex="0" aria-label="Luminarias, desliza para ver más">
+        <article class="slide" id="green-cobra" aria-roledescription="diapositiva" aria-label="1 de 3: Green Cobra">
+          <div class="gc">
+            <div class="gc__viewer">
+              <figure class="gc__stage">
+                <img class="gc__main" src="assets/img/productos/green-cobra-5.webp" alt="Green Cobra: montada en poste" width="730" height="1100" loading="lazy">
+                <figcaption class="gc__caption">Montada en poste</figcaption>
+              </figure>
+              <div class="gc__thumbs" style="--n:5" role="group" aria-label="Vistas de Green Cobra">
+                <button type="button" class="gc__thumb" aria-pressed="true" data-src="assets/img/productos/green-cobra-5.webp" data-w="730" data-h="1100" data-label="Montada en poste"><img src="assets/img/productos/green-cobra-5.webp" alt="" width="730" height="1100" loading="lazy"><span class="visually-hidden">Montada en poste</span></button>
+                <button type="button" class="gc__thumb" aria-pressed="false" data-src="assets/img/productos/green-cobra-3.webp" data-w="1100" data-h="479" data-label="Perspectiva, LED encendido"><img src="assets/img/productos/green-cobra-3.webp" alt="" width="1100" height="479" loading="lazy"><span class="visually-hidden">Perspectiva, LED encendido</span></button>
+                <button type="button" class="gc__thumb" aria-pressed="false" data-src="assets/img/productos/green-cobra-1.webp" data-w="627" data-h="1100" data-label="Vista inferior, módulo LED"><img src="assets/img/productos/green-cobra-1.webp" alt="" width="627" height="1100" loading="lazy"><span class="visually-hidden">Vista inferior, módulo LED</span></button>
+                <button type="button" class="gc__thumb" aria-pressed="false" data-src="assets/img/productos/green-cobra-2.webp" data-w="386" data-h="748" data-label="Vista superior"><img src="assets/img/productos/green-cobra-2.webp" alt="" width="386" height="748" loading="lazy"><span class="visually-hidden">Vista superior</span></button>
+                <button type="button" class="gc__thumb" aria-pressed="false" data-src="assets/img/productos/green-cobra-4.webp" data-w="1100" data-h="287" data-label="Perfil lateral"><img src="assets/img/productos/green-cobra-4.webp" alt="" width="1100" height="287" loading="lazy"><span class="visually-hidden">Perfil lateral</span></button>
+              </div>
+            </div>
+            <div class="gc__text">
+              <p class="eyebrow">Luminaria vial</p>
+              <h3 class="section-title section-title--xl">Green Cobra</h3>
+              <p class="gc__spec">34 – 200 Watts</p>
+              <p>Luminaria LED para avenidas, calles y vialidades. Pensada para proyectos de alumbrado público que buscan reducir el consumo de energía y mejorar la visibilidad nocturna.</p>
+              <dl class="gc__specs">
+                <div><dt>Flujo luminoso</dt><dd>4,800 a 35,600 lm</dd></div>
+                <div><dt>Potencias</dt><dd>34 W a 200 W</dd></div>
+                <div><dt>Protección</dt><dd>IP66 · IK10</dd></div>
+                <div><dt>Garantía</dt><dd>10 años</dd></div>
+                <div><dt>Certificados</dt><dd>PAESE · NOM-031 · NOM-003 · ISO 9001</dd></div>
+                <div><dt>Aplicaciones</dt><dd>Vialidades, parques, estacionamientos y zonas residenciales</dd></div>
+              </dl>
+              <div class="gc__actions">
+                <a class="btn btn--dark" href="#contacto" data-wa="Hola, quiero la ficha técnica y cotización de Green Cobra.">Solicitar ficha técnica <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="slide" id="lao-s-pro" aria-roledescription="diapositiva" aria-label="2 de 3: LAO-S Pro">
+          <div class="gc">
+            <div class="gc__viewer">
+              <figure class="gc__stage">
+                <img class="gc__main" src="assets/img/productos/lao-s-pro-perspectiva.webp" alt="LAO-S Pro: perspectiva" width="1300" height="654" loading="lazy">
+                <figcaption class="gc__caption">Perspectiva</figcaption>
+              </figure>
+              <div class="gc__thumbs" style="--n:5" role="group" aria-label="Vistas de LAO-S Pro">
+                <button type="button" class="gc__thumb" aria-pressed="true" data-src="assets/img/productos/lao-s-pro-perspectiva.webp" data-w="1300" data-h="654" data-label="Perspectiva"><img src="assets/img/productos/lao-s-pro-perspectiva.webp" alt="" width="1300" height="654" loading="lazy"><span class="visually-hidden">Perspectiva</span></button>
+                <button type="button" class="gc__thumb" aria-pressed="false" data-src="assets/img/productos/lao-s-pro-60w.webp" data-w="1100" data-h="607" data-label="Versión 60W"><img src="assets/img/productos/lao-s-pro-60w.webp" alt="" width="1100" height="607" loading="lazy"><span class="visually-hidden">Versión 60W</span></button>
+                <button type="button" class="gc__thumb" aria-pressed="false" data-src="assets/img/productos/lao-s-pro-80w.webp" data-w="1100" data-h="759" data-label="Versión 80W"><img src="assets/img/productos/lao-s-pro-80w.webp" alt="" width="1100" height="759" loading="lazy"><span class="visually-hidden">Versión 80W</span></button>
+                <button type="button" class="gc__thumb" aria-pressed="false" data-src="assets/img/productos/lao-s-pro-100-y-120w.webp" data-w="1100" data-h="693" data-label="Versiones 100 y 120W"><img src="assets/img/productos/lao-s-pro-100-y-120w.webp" alt="" width="1100" height="693" loading="lazy"><span class="visually-hidden">Versiones 100 y 120W</span></button>
+                <button type="button" class="gc__thumb" aria-pressed="false" data-src="assets/img/productos/lao-s-pro-panel.webp" data-w="354" data-h="1100" data-label="Panel solar"><img src="assets/img/productos/lao-s-pro-panel.webp" alt="" width="354" height="1100" loading="lazy"><span class="visually-hidden">Panel solar</span></button>
+              </div>
+            </div>
+            <div class="gc__text">
+              <p class="eyebrow">Luminaria solar</p>
+              <h3 class="section-title section-title--xl">LAO-S Pro</h3>
+              <p class="gc__spec">60 – 150 Watts</p>
+              <p>Luminaria LED solar para parques, andadores, estacionamientos y espacios donde no hay red eléctrica. Funciona con energía del sol, sin consumo de la red.</p>
+              <p class="gc__note">Potencias, ópticas y ficha técnica disponibles a solicitud.</p>
+              <div class="gc__actions">
+                <a class="btn btn--dark" href="#contacto" data-wa="Hola, quiero la ficha técnica y cotización de la luminaria solar LAO-S Pro.">Solicitar ficha técnica <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="slide" id="afrodita" aria-roledescription="diapositiva" aria-label="3 de 3: Afrodita">
+          <div class="gc">
+            <div class="gc__viewer">
+              <figure class="gc__stage">
+                <img class="gc__main" src="assets/img/productos/afrodita-1.webp" alt="Afrodita: montada en poste" width="573" height="1100" loading="lazy">
+                <figcaption class="gc__caption">Montada en poste</figcaption>
+              </figure>
+              <div class="gc__thumbs" style="--n:3" role="group" aria-label="Vistas de Afrodita">
+                <button type="button" class="gc__thumb" aria-pressed="true" data-src="assets/img/productos/afrodita-1.webp" data-w="573" data-h="1100" data-label="Montada en poste"><img src="assets/img/productos/afrodita-1.webp" alt="" width="573" height="1100" loading="lazy"><span class="visually-hidden">Montada en poste</span></button>
+                <button type="button" class="gc__thumb" aria-pressed="false" data-src="assets/img/productos/afrodita-2.webp" data-w="931" data-h="1032" data-label="Vista frontal"><img src="assets/img/productos/afrodita-2.webp" alt="" width="931" height="1032" loading="lazy"><span class="visually-hidden">Vista frontal</span></button>
+                <button type="button" class="gc__thumb" aria-pressed="false" data-src="assets/img/productos/afrodita-3.webp" data-w="452" data-h="677" data-label="Cuerpo completo"><img src="assets/img/productos/afrodita-3.webp" alt="" width="452" height="677" loading="lazy"><span class="visually-hidden">Cuerpo completo</span></button>
+              </div>
+            </div>
+            <div class="gc__text">
+              <p class="eyebrow">Luminaria punta de poste</p>
+              <h3 class="section-title section-title--xl">Afrodita</h3>
+              <p class="gc__spec">Potencia a consultar</p>
+              <p>Luminaria LED de punta de poste para plazas, parques, andadores y centros históricos. Su brazo en forma de Y ilumina y, al mismo tiempo, acompaña la arquitectura del lugar.</p>
+              <p class="gc__note">Potencias, ópticas y ficha técnica disponibles a solicitud.</p>
+              <div class="gc__actions">
+                <a class="btn btn--dark" href="#contacto" data-wa="Hola, quiero la ficha técnica y cotización de la luminaria punta de poste Afrodita.">Solicitar ficha técnica <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="lines__dots" aria-hidden="true"><span class="is-active"></span><span></span><span></span></div>
+      <div class="lines__more">
+        <p>¿Buscas otra luminaria? El catálogo tiene todo tipo de luminarias viales, solares, punta de poste, ornamentales, reflectores e interiores.</p>
+        <a class="btn btn--primary" href="catalogo.html">Ver catálogo digital <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+  </section>
+  <section class="section section--black services" id="servicios" aria-labelledby="servicios-title">
+    <div class="container services__inner">
+      <div class="services__head">
+        <p class="eyebrow">Nuestros servicios</p>
+        <h2 class="section-title" id="servicios-title">Proyectos integrales de iluminación</h2>
+      </div>
+      <ul class="services__list">
+        <li><svg class="icon icon--accent icon--lg" aria-hidden="true"><use href="#i-clipboard"/></svg><span>Estudio y proyecto sin costo</span></li>
+        <li><svg class="icon icon--accent icon--lg" aria-hidden="true"><use href="#i-gear"/></svg><span>Suministro de luminarias</span></li>
+        <li><svg class="icon icon--accent icon--lg" aria-hidden="true"><use href="#i-wrench"/></svg><span>Instalación</span></li>
+        <li><svg class="icon icon--accent icon--lg" aria-hidden="true"><use href="#i-hardhat"/></svg><span>Mantenimiento</span></li>
+        <li><svg class="icon icon--accent icon--lg" aria-hidden="true"><use href="#i-handshake"/></svg><span>Asesoría y financiamiento</span></li>
+      </ul>
+    </div>
+  </section>
+  <section class="about" id="nosotros" aria-labelledby="nosotros-title">
+    <div class="about__media">
+      <img src="assets/img/ambiente/nosotros.webp" alt="Campo de béisbol iluminado de noche con reflectores LED" width="1600" height="1200" loading="lazy">
+    </div>
+    <div class="about__body">
+      <div class="about__content">
+        <p class="eyebrow eyebrow--dark">Grupo MCU</p>
+        <h2 class="section-title" id="nosotros-title">Más de 20 años iluminando México</h2>
+        <p>Somos una empresa especializada en soluciones de iluminación LED para el sector público y privado, ofreciendo proyectos integrales que mejoran la seguridad, reducen el consumo de energía y generan ciudades más sustentables.</p>
+        <dl class="stats">
+          <div><dt>+20</dt><dd>Años de experiencia</dd></div>
+          <div><dt>+500</dt><dd>Municipios atendidos</dd></div>
+          <div><dt class="stats__word">Proyectos</dt><dd>En todo México</dd></div>
+        </dl>
+        <a class="btn btn--primary" href="nosotros.html">Conoce más sobre nosotros <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+  </section>
+  <section class="section section--black" id="proyectos" aria-labelledby="proyectos-title">
+    <div class="container">
+      <div class="projects__head">
+        <div>
+          <p class="eyebrow">Proyectos</p>
+          <h2 class="section-title" id="proyectos-title">Ciudades más seguras y eficientes</h2>
+        </div>
+        <a class="btn btn--ghost" href="proyectos.html">Ver más proyectos <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+    <div class="projects__rail">
+{{proyectos.carrusel}}
+    </div>
+  </section>
+  <section class="benefits" aria-label="Beneficios">
+    <ul class="container benefits__list">
+      <li><svg class="icon icon--lg" aria-hidden="true"><use href="#i-leaf"/></svg><span>Sustentabilidad</span></li>
+      <li><svg class="icon icon--lg" aria-hidden="true"><use href="#i-shield"/></svg><span>Seguridad</span></li>
+      <li><svg class="icon icon--lg" aria-hidden="true"><use href="#i-users"/></svg><span>Bienestar social</span></li>
+      <li><svg class="icon icon--lg" aria-hidden="true"><use href="#i-piggy"/></svg><span>Ahorro municipal</span></li>
+      <li><svg class="icon icon--lg" aria-hidden="true"><use href="#i-tree"/></svg><span>Entornos más iluminados</span></li>
+    </ul>
+  </section>
+  <section class="munis" aria-labelledby="munis-title">
+    <div class="container container--wide munis__head">
+      <p class="eyebrow eyebrow--dark">Clientes</p>
+      <h2 class="section-title" id="munis-title">Municipios con los que hemos trabajado</h2>
+    </div>
+    <div class="munis__rail">
+{{municipios}}
+    </div>
+  </section>
+

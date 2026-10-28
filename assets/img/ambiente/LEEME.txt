@@ -1,5 +1,0 @@
-Fotos ambientales pendientes (usar solo fotos reales de obras de Grupo MCU):
-  hero.webp       → fondo del hero (avenida o espacio público de noche), ~1920x1080
-  nosotros.webp   → proyecto iluminado para la sección Nosotros, ~1200x900
-  proyecto-1..4   → galería de Proyectos, ~800x600 (4:3)
-Las instrucciones para colocarlas están como comentarios en index.html y styles.css.

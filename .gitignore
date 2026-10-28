@@ -1,3 +1,5 @@
 .DS_Store
 __MACOSX/
 *.tmp
+node_modules/
+artifact.html

@@ -1,0 +1,26 @@
+  <section class="cat-hero" aria-labelledby="cat-title">
+    <div class="container container--wide cat-hero__inner">
+      <div class="cat-hero__text">
+        <p class="eyebrow">Grupo MCU · Alumbrado Tecnológico</p>
+        <h1 class="cat-hero__title" id="cat-title"><span class="hero__title-thin">Catálogo</span> <em>2026</em></h1>
+        <div class="cat-hero__actions">
+          <a class="btn btn--primary" href="assets/catalogo/catalogo-2026-grupo-mcu.pdf" target="_blank" rel="noopener">Descargar PDF <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn--outline" href="#contacto" data-wa="Hola, quiero asesoría para elegir luminarias del catálogo 2026.">Pedir asesoría</a>
+        </div>
+      </div>
+      <img class="cat-hero__cover" src="assets/img/catalogo/pag-01.webp" alt="Portada del catálogo 2026 de Grupo MCU" width="1000" height="1333" fetchpriority="high">
+    </div>
+  </section>
+
+  <nav class="cat-nav" aria-label="Categorías del catálogo">
+    <div class="container container--wide cat-nav__inner">
+      {{catalog.chips}}
+      <label class="cat-search">
+        <span class="visually-hidden">Buscar producto</span>
+        <input type="search" id="cat-search" placeholder="Buscar producto…" autocomplete="off">
+      </label>
+    </div>
+  </nav>
+  <p class="cat-empty container container--wide" id="cat-empty" hidden>No hay productos con ese nombre. Prueba con otra palabra o escríbenos por WhatsApp.</p>
+
+{{catalog.sections}}
