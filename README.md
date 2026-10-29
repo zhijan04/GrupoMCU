@@ -36,6 +36,7 @@ assets/
   js/main.js          Menú, carrusel, visor de imágenes, buscador del catálogo
   img/                Imágenes en WebP (productos, obras, catálogo, municipios, marca, og)
   catalogo/           PDF del catálogo 2026 y de luminarias ornamentales
+  video/              Video de presentación (MP4 comprimido) y su portada
   fonts/              Lugar para los archivos de Radnika Next
 ```
 
@@ -49,6 +50,8 @@ assets/
 - **Carrusel de proyectos de la portada**: las fotos que van primero y las obras que se omiten están en `PROYECTOS_PORTADA` (`src/site.mjs`).
 - **Sumar un municipio**: el logo en `assets/img/municipios/slug.webp` y una línea en `src/data/municipios.json`.
 - **Sumar un producto al catálogo**: la imagen de la página en `assets/img/catalogo/` y un ítem en la categoría de `src/data/catalogo.json`.
+- **Cambiar el video de Nosotros**: reemplazá `assets/video/grupo-mcu.mp4` y su portada `grupo-mcu-poster.webp`
+  (mismo nombre); si cambia la duración, actualizala en el botón de `src/pages/nosotros.html` y en `video` de `src/site.mjs`.
 - **Dominio propio**: cambiar `url` en `src/site.mjs` (lo usan las etiquetas canónicas, Open Graph y el sitemap).
 
 ## SEO incluido

@@ -292,6 +292,20 @@ function structuredData(page) {
       ],
     });
   }
+  if (page.video) {
+    const v = page.video;
+    data.push({
+      "@context": "https://schema.org",
+      "@type": "VideoObject",
+      name: v.name,
+      description: v.description,
+      thumbnailUrl: absUrl(v.poster),
+      contentUrl: absUrl(v.file),
+      uploadDate: v.uploadDate,
+      duration: v.duration,
+      publisher: { "@id": SITE.url + "#empresa" },
+    });
+  }
   return data.map((d) => `<script type="application/ld+json">${JSON.stringify(d)}</script>`).join("\n");
 }
 

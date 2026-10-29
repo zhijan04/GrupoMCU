@@ -98,6 +98,14 @@ export const PAGES = [
     bodyClass: "page-sub page-nosotros",
     whatsapp: "Hola, quiero cotizar un proyecto de iluminación LED.",
     crumb: "Nosotros",
+    video: {
+      name: "Grupo MCU · Alumbrado Tecnológico: espacios seguros para toda la comunidad",
+      description: "Cómo Grupo MCU acompaña a los municipios con planeación, asesoría y equipos de iluminación LED para vialidades, unidades deportivas y canchas.",
+      file: "assets/video/grupo-mcu.mp4",
+      poster: "assets/video/grupo-mcu-poster.webp",
+      duration: "PT1M2S",
+      uploadDate: "2026-10-29",
+    },
   },
   {
     id: "servicios",

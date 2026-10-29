@@ -1340,6 +1340,61 @@ button { font: inherit; color: inherit; }
 .nos-obra img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s ease; }
 .nos-obra:hover img { transform: scale(1.04); }
 
+/* Video de presentación (vertical) */
+.nos-video {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(36px, 6vw, 96px);
+}
+.nos-video__text { display: grid; gap: 18px; justify-items: start; max-width: 580px; }
+.nos-video__text .eyebrow { margin-bottom: -6px; }
+.nos-video__text > p:not(.eyebrow) { max-width: 48ch; font-size: var(--fs-md); line-height: 1.6; color: var(--on-dark-soft); }
+.nos-video__text .nos-ben { margin-block: 4px 8px; }
+.nos-video__player {
+  position: relative;
+  justify-self: center;
+  width: min(340px, calc(100% - 16px));
+  aspect-ratio: 9 / 16;
+  overflow: hidden;
+  border-radius: 18px;
+  background: var(--graphite);
+  box-shadow: 16px 16px 0 var(--yellow), 0 30px 60px -24px rgba(0, 0, 0, .8);
+}
+.nos-video__player video { display: block; width: 100%; height: 100%; object-fit: cover; }
+.nos-video__play {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 16px;
+  padding: 0;
+  border: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, .1) 0%, rgba(0, 0, 0, .45) 100%);
+  color: var(--white);
+  cursor: pointer;
+}
+.nos-video__icon {
+  display: grid;
+  place-items: center;
+  width: 76px; height: 76px;
+  border-radius: 50%;
+  background: var(--yellow);
+  color: var(--black);
+  box-shadow: 0 0 0 10px rgba(254, 206, 0, .22);
+  transition: transform .2s ease, background-color .2s ease;
+}
+.nos-video__icon .icon { width: 30px; height: 30px; margin-left: 4px; fill: currentColor; stroke: none; }
+.nos-video__play:hover .nos-video__icon { transform: scale(1.06); background: var(--yellow-light); }
+.nos-video__label {
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, .65);
+  font-size: var(--fs-sm);
+  font-weight: 700;
+}
+
 /* Cierre con dirección */
 .nos-cta p { display: flex; align-items: center; gap: 8px; }
 .nos-cta__actions { display: flex; flex-wrap: wrap; gap: 12px; }
@@ -1352,7 +1407,9 @@ button { font: inherit; color: inherit; }
 }
 @media (max-width: 899px) {
   .nos-about,
-  .nos-resp { grid-template-columns: minmax(0, 1fr); }
+  .nos-resp,
+  .nos-video { grid-template-columns: minmax(0, 1fr); }
+  .nos-video__player { width: min(320px, calc(100% - 16px)); }
   .nos-obras { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 767px) {

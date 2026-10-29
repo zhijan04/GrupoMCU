@@ -190,6 +190,24 @@
     }
   }
 
+  /* ---------- Video con portada propia: el botón lo inicia y aparecen los controles ---------- */
+  function videoPlayers() {
+    $$(".nos-video__player").forEach(function (box) {
+      var video = $("video", box);
+      var btn = $(".nos-video__play", box);
+      video.controls = false;
+      btn.hidden = false;
+      btn.setAttribute("aria-label", "Reproducir video");
+      btn.addEventListener("click", function () {
+        btn.hidden = true;
+        video.controls = true;
+        var playing = video.play();
+        if (playing) playing.catch(function () { /* el navegador bloqueó la reproducción: quedan los controles */ });
+        video.focus();
+      });
+    });
+  }
+
   /* ---------- Visor de imágenes ampliadas (catálogo y proyectos) ---------- */
   function lightbox() {
     var box = $("#zoom");
@@ -292,6 +310,7 @@
   scrollSpy();
   productGalleries();
   productCarousel();
+  videoPlayers();
   lightbox();
   catalog();
 })();
