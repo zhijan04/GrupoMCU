@@ -52,7 +52,7 @@ assets/
 - **Sumar un producto al catálogo**: la imagen de la página en `assets/img/catalogo/` y un ítem en la categoría de `src/data/catalogo.json`.
 - **Cambiar el video de Nosotros**: reemplazá `assets/video/grupo-mcu.mp4` y su portada `grupo-mcu-poster.webp`
   (mismo nombre); si cambia la duración, actualizala en el botón de `src/pages/nosotros.html` y en `video` de `src/site.mjs`.
-- **Dominio propio**: cambiar `url` en `src/site.mjs` (lo usan las etiquetas canónicas, Open Graph y el sitemap).
+- **Dominio**: el sitio se publica en https://grupomcu.com.mx (Vercel, con despliegue automático desde GitHub). Si cambia, actualizar `url` en `src/site.mjs` (lo usan las etiquetas canónicas, Open Graph y el sitemap).
 
 ## SEO incluido
 

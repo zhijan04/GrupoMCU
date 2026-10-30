@@ -1,8 +1,8 @@
 // Datos generales del sitio. Todo lo que se repite en las páginas sale de aquí.
 
 export const SITE = {
-  // Dirección pública del sitio (con barra final). Cambiar cuando haya dominio propio.
-  url: "https://zhijan04.github.io/GrupoMCU/",
+  // Dirección pública del sitio (con barra final).
+  url: "https://grupomcu.com.mx/",
   name: "Grupo MCU · Alumbrado Tecnológico",
   shortName: "Grupo MCU",
   locale: "es_MX",
